@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node --stage 1 index",
+    "start": "node babel",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
