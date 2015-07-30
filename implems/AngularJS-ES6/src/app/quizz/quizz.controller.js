@@ -6,7 +6,7 @@ class QuizzController {
     this.$timeout = $timeout;
     this.qIndex = 0;
     this.nextQuestionReady = true;
-    this.correctAnswersCount = 0;
+    this.validAnswersCount = 0;
 
     this.questions = [
       {
@@ -72,7 +72,7 @@ class QuizzController {
 
     if (this.isAnswerValid()) {
       this.toastr.success(`Yup, that's right.`);
-      ++this.correctAnswersCount;
+      ++this.validAnswersCount;
     } else {
       this.toastr.error(`Nope! Wrong answer.`);
     }
@@ -89,6 +89,7 @@ class QuizzController {
   reset() {
     this.qIndex = 0;
     this.currentAnswer = {};
+    this.validAnswersCount = 0;
   }
 }
 
