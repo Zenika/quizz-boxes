@@ -1,10 +1,10 @@
-import { readdir, mkdir, writeFile } from 'mz/fs';
+import { readdir, mkdir, writeFile } from 'mz/fs';
 import path from 'path';
 import Promise from 'bluebird';
 import rimrafCb from 'rimraf';
-import { conf } from './index';
+import { conf } from './index';
 
-import { renderImplem, renderHome } from './renderers';
+import { renderImplem/*, renderHome*/ } from './renderers';
 
 const rimraf = Promise.promisify(rimrafCb);
 

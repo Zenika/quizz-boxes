@@ -1,8 +1,8 @@
-import { readFile } from 'mz/fs';
+import { readFile } from 'mz/fs';
 import path from 'path';
 import marked from 'marked';
 
-import { conf } from './index';
+import { conf } from './index';
 
 import React from 'react';
 import Implem from './components/implem.component';

@@ -1,0 +1,11 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [ "react" ],
+  "rules": {
+    "quotes": [2, "single", "avoid-escape"],
+    "strict": [2, "never"]
+  },
+  "env": {
+    "node": true
+  }
+}

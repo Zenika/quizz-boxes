@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default class Implem extends React.Component {
-
   render() {
     return (
       <section>
