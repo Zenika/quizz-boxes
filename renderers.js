@@ -6,6 +6,7 @@ import { conf } from './index';
 
 import React from 'react';
 import Implem from './components/implem.component';
+import Home from './components/home.component';
 
 export async function renderImplem(implemPath) {
   const readmeContent = await readFile(path.join(conf.implems, implemPath, 'README.md'));
@@ -18,5 +19,5 @@ export async function renderImplem(implemPath) {
 }
 
 export function renderHome() {
-  return 'home';
+  return React.renderToString(<Home/>);
 }

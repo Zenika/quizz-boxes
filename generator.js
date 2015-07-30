@@ -6,21 +6,34 @@ import rimrafCb from 'rimraf';
 import { ncp as ncpCb } from 'ncp';
 import { conf } from './index';
 
-import { renderImplem/*, renderHome*/ } from './renderers';
+import { renderImplem, renderHome } from './renderers';
 
 const rimraf = Promise.promisify(rimrafCb);
 const ncp = Promise.promisify(ncpCb);
 
+const publicPath = 'public';
+const distPath = 'dist';
+
 export default async function() {
   try {
     await rimraf(conf.dist);
-    await mkdir(conf.dist);
+    //await mkdir(conf.dist);
+
+    await ncp(publicPath, distPath);
+
+    const homeContent = renderHome();
+    const homeIndexPath = path.join(distPath, 'index.html');
+    let homeIndexContent = await readFile(homeIndexPath);
+    homeIndexContent = homeIndexContent.toString().replace(
+      /<body>[\s\S]*<\/body>/,
+      `<body>${homeContent}</body>`
+    );
+    await writeFile(homeIndexPath, homeIndexContent);
+
 
     const directories = await readdir(conf.implems);
     const implemsPromises = directories.map(renderImplem);
-
     const implems = await Promise.all(implemsPromises);
-
     //console.log('implems', implems);
 
     for(let implem of implems) {
