@@ -1,0 +1,67 @@
+/* Control the position of the map... here is centered... And you can also control the style of the map container */
+/* Pour controler la position de la map... là elle est centrée */
+
+#novo-map-container
+{
+  position: relative; /* do not change / ne pas changer */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#novo-map
+{
+
+}
+
+/***** Control the style of the popup boxes *****/
+/***** Controle le style des popups *****/
+
+/* style of the title / titre */
+.map-title
+{
+  font-size: 2.2em;
+  font-weight: bold;
+}
+/* style of the links (image and title) / les liens (image et titre) */
+.map-link
+{
+  
+}
+/* style of the thumbnail image/ style de l'image */
+.map-link img
+{
+  float: left;
+  border: 3px solid #e5dfcf;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-left: 0px; 
+}
+/* style of the description/ style de la description */
+.map-description
+{
+  font-size: 1.2em;
+  color: white;
+  height: 200px; /* Control the height of the box / controle la hauteur des popups (I did not found a better way to control it for the moment) */
+}
+/* style of the popup for the current position / description pour la position actuelle*/
+#current-position
+{
+  font-size: 1.2em;
+  color: white;
+  height: 100px; /* Control the height of the box / controle la hauteur de la popup (I did not found a better way to control it for the moment) */
+}
+
+/* ne pas modifier en dessous / do not modify under */
+
+/* About the problem of the zoom bar */
+.gmnoprint img 
+{
+  max-width: none; 
+}
+
+#novo-map-logo
+{
+  position: absolute;
+  margin-top: -30px;
+}

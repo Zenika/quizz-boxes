@@ -1,0 +1,14 @@
+{
+  "name": "implem2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf dist && mkdir dist && cp index.html dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash": "^3.10.0"
+  }
+}
