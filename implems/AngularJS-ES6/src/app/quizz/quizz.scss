@@ -1,0 +1,40 @@
+/**
+ *  Do not remove this comments bellow. It's the markers used by wiredep to inject
+ *  sass dependencies when defined in the bower.json of your dependencies
+ */
+// bower:scss
+// endbower
+
+.quizz-container {
+  padding-top: 20px;
+}
+
+#toast-container > .toast {
+  background-image: none !important;
+}
+
+#toast-container > .toast:before {
+  position: relative;
+  font-family: FontAwesome;
+  font-size: 24px;
+  line-height: 18px;
+  float: left;
+  margin-left: -1em;
+  color: #FFF;
+  padding-right: 0.5em;
+  margin-right: 0.5em;
+}
+
+#toast-container > .toast-error:before {
+  content: "\f088";
+}
+#toast-container > .toast-success:before {
+  content: "\f087";
+}
+
+/**
+ *  Do not remove this comments bellow. It's the markers used by gulp-inject to inject
+ *  all your sass files automatically
+ */
+// injector
+// endinjector
