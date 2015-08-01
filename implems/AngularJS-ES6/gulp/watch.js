@@ -18,7 +18,7 @@ gulp.task('watch', ['scripts:watch', 'inject'], function () {
     path.join(conf.paths.src, '/app/**/*.css'),
     path.join(conf.paths.src, '/app/**/*.scss')
   ], function(event) {
-    if(isOnlyChange(event)) {
+    if (isOnlyChange(event)) {
       gulp.start('styles');
     } else {
       gulp.start('inject');

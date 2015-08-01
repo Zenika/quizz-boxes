@@ -1,14 +1,10 @@
-'use strict';
-
 describe('controller: QuizzController', function() {
-
-  var quizzController;
 
   beforeEach(module('quizz'));
 
   beforeEach(inject(function($controller) {
-    quizzController = $controller('QuizzController');
-    quizzController.questions = [
+    this.quizzController = $controller('QuizzController');
+    this.quizzController.questions = [
       {
         label: 'question1?',
         answers: [
@@ -39,54 +35,54 @@ describe('controller: QuizzController', function() {
   }));
 
   it('should show success toastr when user\'s current answer is valid', function() {
-    quizzController.currentAnswer = { 1: true, 3: true };
-    spyOn(quizzController.toastr, 'success');
-    quizzController.nextQuestion();
-    expect(quizzController.toastr.success).toHaveBeenCalled();
+    this.quizzController.currentAnswer = { 1: true, 3: true };
+    spyOn(this.quizzController.toastr, 'success');
+    this.quizzController.nextQuestion();
+    expect(this.quizzController.toastr.success).toHaveBeenCalled();
   });
 
   it('should show error toastr when user\'s current answer is invalid', function() {
-    quizzController.currentAnswer = { 3: true };
-    spyOn(quizzController.toastr, 'error');
-    quizzController.nextQuestion();
-    expect(quizzController.toastr.error).toHaveBeenCalled();
+    this.quizzController.currentAnswer = { 3: true };
+    spyOn(this.quizzController.toastr, 'error');
+    this.quizzController.nextQuestion();
+    expect(this.quizzController.toastr.error).toHaveBeenCalled();
   });
 
   it('should show error toastr when user\'s current answer is undefined', function() {
-    spyOn(quizzController.toastr, 'error');
-    quizzController.nextQuestion();
-    expect(quizzController.toastr.error).toHaveBeenCalled();
+    spyOn(this.quizzController.toastr, 'error');
+    this.quizzController.nextQuestion();
+    expect(this.quizzController.toastr.error).toHaveBeenCalled();
   });
 
   it('should show error toastr when user\'s current answer is an empty object', function() {
-    quizzController.currentAnswer = {};
-    spyOn(quizzController.toastr, 'error');
-    quizzController.nextQuestion();
-    expect(quizzController.toastr.error).toHaveBeenCalled();
+    this.quizzController.currentAnswer = {};
+    spyOn(this.quizzController.toastr, 'error');
+    this.quizzController.nextQuestion();
+    expect(this.quizzController.toastr.error).toHaveBeenCalled();
   });
 
-  it('should have a result of X valid answers when user\'s answer are all valid', inject(function($timeout) {
-    expect(quizzController.validAnswersCount).toBe(0);
+  it('should have a result of 3 valid answers when user\'s 3 answers are all valid', inject(function($timeout) {
+    expect(this.quizzController.validAnswersCount).toBe(0);
 
-    quizzController.currentAnswer = { 1: true, 3: true };
-    quizzController.nextQuestion();
+    this.quizzController.currentAnswer = { 1: true, 3: true };
+    this.quizzController.nextQuestion();
     $timeout.flush();
-    quizzController.currentAnswer = { 2: true };
-    quizzController.nextQuestion();
+    this.quizzController.currentAnswer = { 2: true };
+    this.quizzController.nextQuestion();
     $timeout.flush();
-    quizzController.currentAnswer = { 1: true, 2: true, 3: true };
-    quizzController.nextQuestion();
+    this.quizzController.currentAnswer = { 1: true, 2: true, 3: true };
+    this.quizzController.nextQuestion();
     $timeout.flush();
 
-    expect(quizzController.validAnswersCount).toBe(3);
+    expect(this.quizzController.validAnswersCount).toBe(3);
   }));
 
   it('should reset valid answers count when quizz has reset', inject(function($timeout) {
-    quizzController.currentAnswer = { 1: true, 3: true };
-    quizzController.nextQuestion();
+    this.quizzController.currentAnswer = { 1: true, 3: true };
+    this.quizzController.nextQuestion();
     $timeout.flush();
-    expect(quizzController.validAnswersCount).toBe(1);
-    quizzController.reset();
-    expect(quizzController.validAnswersCount).toBe(0);
+    expect(this.quizzController.validAnswersCount).toBe(1);
+    this.quizzController.reset();
+    expect(this.quizzController.validAnswersCount).toBe(0);
   }));
 });

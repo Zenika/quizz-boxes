@@ -12,18 +12,18 @@ function webpack(watch, callback) {
   var webpackOptions = {
     watch: watch,
     module: {
-      preLoaders: [{ test: /\.js$/, exclude: /node_modules/, loader: 'jshint-loader'}],
+      preLoaders: [{ test: /\.js$/, exclude: /node_modules/, loader: 'eslint-loader'}],
       loaders: [{ test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader'}]
     },
     output: { filename: 'index.module.js' }
   };
 
-  if(watch) {
+  if (watch) {
     webpackOptions.devtool = 'inline-source-map';
   }
 
   var webpackChangeHandler = function(err, stats) {
-    if(err) {
+    if (err) {
       conf.errorHandler('Webpack')(err);
     }
     $.util.log(stats.toString({
@@ -33,7 +33,7 @@ function webpack(watch, callback) {
       version: false
     }));
     browserSync.reload();
-    if(watch) {
+    if (watch) {
       watch = false;
       callback();
     }

@@ -2,7 +2,7 @@ class QuizzDirective {
   constructor () {
     'ngInject';
 
-    let directive = {
+    const directive = {
       restrict: 'E',
       templateUrl: 'app/quizz/quizz.html',
       controller: 'QuizzController',

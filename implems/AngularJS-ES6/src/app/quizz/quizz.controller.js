@@ -41,7 +41,7 @@ class QuizzController {
   }
 
   currentQuestion() {
-    return this.questions[this.qIndex] || {};
+    return this.questions[this.qIndex] || {};
   }
 
   currentQuestionLabel() {

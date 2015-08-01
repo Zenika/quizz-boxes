@@ -1,0 +1,38 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [ "angular" ],
+  "env": {
+    "browser": true,
+    "node": false,
+    "jasmine": true
+  },
+  "globals": {
+    "console": true,
+    "angular": true,
+    "define": true,
+    "module": true,
+    "inject": true,
+    "_": true,
+  },
+  "rules": {
+    "strict": 0,
+    "eqeqeq": 2,
+    "curly": 2,
+    "quotes": 2,
+    "camelcase": 2,
+    "key-spacing": 2,
+    "new-cap": 2,
+    "no-trailing-spaces": 2,
+    "no-unreachable": 2,
+    "no-console": 0,
+    "no-alert": 2,
+    "space-after-keywords": 2,
+    "no-bitwise": 2,
+    "no-var": 1,
+    "prefer-const": 1,
+
+    "angular/ng_module_getter": 0,
+    "angular/ng_controller_as_vm": 0,
+    "angular/ng_on_watch": 0
+  }
+}
