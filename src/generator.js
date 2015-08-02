@@ -4,25 +4,20 @@ import path from 'path';
 import Promise from 'bluebird';
 import rimrafCb from 'rimraf';
 import { ncp as ncpCb } from 'ncp';
-import { conf } from './index';
+import { conf } from './conf';
 
 import { renderImplem, renderHome } from './renderers';
 
 const rimraf = Promise.promisify(rimrafCb);
 const ncp = Promise.promisify(ncpCb);
 
-const publicPath = 'public';
-const distPath = 'dist';
-
 export default async function() {
   try {
     await rimraf(conf.dist);
-    //await mkdir(conf.dist);
-
-    await ncp(publicPath, distPath);
+    await ncp(conf.public, conf.dist);
 
     const homeContent = renderHome();
-    const homeIndexPath = path.join(distPath, 'index.html');
+    const homeIndexPath = path.join(conf.dist, 'index.html');
     let homeIndexContent = await readFile(homeIndexPath);
     homeIndexContent = homeIndexContent.toString().replace(
       /<body>[\s\S]*<\/body>/,
@@ -58,5 +53,4 @@ export default async function() {
   } catch (error) {
     console.log('Something went wrong in generation', error);
   }
-
 }

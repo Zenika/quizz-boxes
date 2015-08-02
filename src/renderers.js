@@ -2,11 +2,11 @@ import { readFile } from 'mz/fs';
 import path from 'path';
 import marked from 'marked';
 
-import { conf } from './index';
+import { conf } from './conf';
 
 import React from 'react';
-import Implem from './components/implem.component';
-import Home from './components/home.component';
+import Implem from '../components/implem.component';
+import Home from '../components/home.component';
 
 export async function renderImplem(implemPath) {
   const readmeContent = await readFile(path.join(conf.implems, implemPath, 'README.md'));
