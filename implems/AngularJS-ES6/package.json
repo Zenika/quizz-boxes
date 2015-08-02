@@ -1,8 +1,9 @@
 {
   "name": "quizzBoxes",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {},
   "scripts": {
+    "start": "gulp",
     "test": "gulp test"
   },
   "devDependencies": {
