@@ -18,6 +18,6 @@ export async function renderImplem(implemPath) {
   };
 }
 
-export function renderHome() {
-  return React.renderToString(<Home/>);
+export function renderHome(implems) {
+  return React.renderToString(<Home implems={implems}/>);
 }

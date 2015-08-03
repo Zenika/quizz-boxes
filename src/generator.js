@@ -16,20 +16,9 @@ export default async function() {
     await rimraf(conf.dist);
     await ncp(conf.public, conf.dist);
 
-    const homeContent = renderHome();
-    const homeIndexPath = path.join(conf.dist, 'index.html');
-    let homeIndexContent = await readFile(homeIndexPath);
-    homeIndexContent = homeIndexContent.toString().replace(
-      /<body>[\s\S]*<\/body>/,
-      `<body>${homeContent}</body>`
-    );
-    await writeFile(homeIndexPath, homeIndexContent);
-
-
     const directories = await readdir(conf.implems);
     const implemsPromises = directories.map(renderImplem);
     const implems = await Promise.all(implemsPromises);
-    //console.log('implems', implems);
 
     for(let implem of implems) {
       implem.orginalPath = path.join(conf.implems, implem.title);
@@ -49,6 +38,15 @@ export default async function() {
       );
       await writeFile(implem.indexDistPath, indexContent);
     }
+
+    const homeContent = renderHome(implems);
+    const homeIndexPath = path.join(conf.dist, 'index.html');
+    let homeIndexContent = await readFile(homeIndexPath);
+    homeIndexContent = homeIndexContent.toString().replace(
+      /<body>[\s\S]*<\/body>/,
+      `<body>${homeContent}</body>`
+    );
+    await writeFile(homeIndexPath, homeIndexContent);
 
   } catch (error) {
     console.log('Something went wrong in generation', error);
