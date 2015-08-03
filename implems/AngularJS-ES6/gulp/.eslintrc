@@ -1,0 +1,9 @@
+{
+  "extends": "../.eslintrc",
+  "node": true,
+  "rules": {
+    "no-var": 0,
+
+    "angular/ng_definedundefined": 0
+  }
+}

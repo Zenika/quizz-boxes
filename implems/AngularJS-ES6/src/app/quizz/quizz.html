@@ -1,0 +1,43 @@
+<div class="container quizz-container">
+
+  <form name="quizzForm" novalidate ng-hide="quizz.questionsLeftCount() === 0">
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h3>{{quizz.currentQuestionLabel()}}</h3>
+      </div>
+      <div class="panel-body">
+        <div class="form-group">
+          <div ng-repeat="answer in quizz.currentQuestion().answers track by answer.id" class="checkbox">
+            <h4>
+              <label for="answer-{{answer.id}}">
+                <input name="answer" id="answer-{{answer.id}}" type="checkbox"
+                  ng-model="quizz.currentAnswer[answer.id]">
+                {{answer.label}}
+              </label>
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div class="panel-footer">
+        <span>
+          <ng-pluralize count="quizz.questionsLeftCount()"
+            when="{ 'one': '1 question left',
+                    'other': '{} questions left' }">
+          </ng-pluralize>
+        </span>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary"
+      ng-click="quizz.nextQuestion()" ng-disabled="!quizz.nextQuestionReady">Next</button>
+  </form>
+
+  <div class="jumbotron" ng-show="quizz.questionsLeftCount() === 0">
+    <h1>Quizz completed!</h1>
+    <h2>
+      Correct answers <i class="fa fa-long-arrow-right"></i>
+      {{quizz.validAnswersCount}}/{{quizz.questions.length}}
+    </h2>
+    <p><a class="btn btn-primary btn-lg" role="button" ng-click="quizz.reset()">Try again</a></p>
+  </div>
+
+</div>
