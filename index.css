@@ -1,3 +1,49 @@
 body {
-  color: 'red';
+  margin: 0;
+  font-style: "Open Sans"
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #AF1E3A;
+}
+
+nav {
+  height: 66px;
+  line-height: 66px;
+  width: 1024px;
+}
+
+nav .title {
+  font-size: 2rem;
+}
+
+h1 {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 2rem calc(50% - 512px);
+  margin: 0;
+  background-color: #AF1E3A;
+  color: white;
+  font-size: 3.5rem;
+}
+
+section {
+  width: 1024px;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #3E1D5B;
+}
+
+li {
+  font-size: 2rem;
 }
