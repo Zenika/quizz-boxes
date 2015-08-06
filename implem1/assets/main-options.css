@@ -1646,4 +1646,1553 @@ body
 	a.ish-sc_button.ish-color5:hover,
 	.ish-tgg-acc-title.ish-color5:hover, .ish-tgg-acc-title.ish-color5.ish-active,
 	.ish-tabs-navigation li.ish-color5 a:hover, .ish-tabs-navigation li.ish-color5.ish-active a,
-	.ish-sc_sidebar.i
+	.ish-sc_sidebar.ish-block-bg-color5 .widget_tag_cloud a:hover,
+	.ish-sc_cf7.ish-color5 input[type="submit"]:hover,
+	.ish-sc_menu.ish-no-active-bg.ish-color5 li a:hover,
+	.ish-sc_menu.ish-no-active-bg.ish-color5 li.current_page_item a,
+	.ish-sc_menu.ish-block-bg-color5 li.current_page_item a:hover
+	{
+		background-color: #960521;
+		box-shadow: 0 3px 0 #7d0008;
+	}
+
+	.ish-sc_icon.ish-hexagon.ish-color5 svg polygon,
+	.ish-sc_icon.ish-hexagon_rounded.ish-color5 svg path,
+	.ish-sc_svg_icon.ish-hexagon.ish-color5 svg polygon,
+	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color5 svg path,
+	.ish-row_section.ish-color5 .ish-row-decor-top polyline.ish-color,
+	.ish-row_section.ish-color5 .ish-row-decor-bottom polyline.ish-color,
+	.ish-row_section.ish-color5 .ish-row-decor-top path.ish-color,
+	.ish-row_section.ish-color5 .ish-row-decor-bottom path.ish-color,
+	.ish-row_section.ish-color5 .ish-row-decor-top polygon.ish-color,
+	.ish-row_section.ish-color5 .ish-row-decor-bottom polygon.ish-color,
+	.ish-row_section.ish-color5 .ish-row-decor-top rect.ish-color,
+	.ish-row_section.ish-color5 .ish-row-decor-bottom rect.ish-color
+	{
+		fill: #af1e3a;
+	}
+
+	.ish-sc_icon.ish-hexagon.ish-color5 a:hover svg polygon,
+	.ish-sc_icon.ish-hexagon_rounded.ish-color5 a:hover svg path,
+	.ish-sc_svg_icon.ish-hexagon.ish-color5 a:hover svg polygon,
+	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color5 a:hover svg path
+	{
+		fill: #960521;
+	}
+
+	.ish-p-overlay.ish-color5 > span,
+	.ish-blog-fullwidth .wpb_row.ish-color5 > .ish-overlay,
+	.ish-tagline-image.ish-color5 .ish-overlay
+	{
+		background-color: rgba(175, 30, 58, 0.9);
+	}
+
+	.ish-gmap_box.ish-color5:before,
+	.ish-blog.ish-blog-masonry .ish-text-color5 blockquote,
+	.ish-sc_separator.ish-separator-thin.ish-color5,
+	.ish-sc_separator.ish-separator-thin-bold.ish-color5,
+	.ish-color5 .recent_posts_post_content .post-quote-content,
+	.ish-sc_table.ish-border-color5 th, .ish-sc_table.ish-border-color5 tr, .ish-sc_table.ish-border-color5 td,
+	.ish-sc_pricing_table.ish-border-color5 th, .ish-sc_pricing_table.ish-border-color5 tr, .ish-sc_pricing_table.ish-border-color5 td
+	{
+		border-color: #af1e3a;
+	}
+
+	.ish-sc_sidebar.ish-block-bg-color5 .widget_tag_cloud a
+	{
+		box-shadow: 0 3px 0 #960521;
+	}
+	
+
+	.ish-tooltip-color5 .tooltipster-arrow-top span,
+	.ish-tooltip-color5 .tooltipster-arrow-bottom span{
+		border-top-color: #af1e3a !important;
+		border-bottom-color: #af1e3a !important;
+	}
+
+	.ish-tooltip-color5 .tooltipster-arrow-left span,
+	.ish-tooltip-color5 .tooltipster-arrow-right span{
+		border-left-color: #af1e3a !important;
+		border-right-color: #af1e3a !important;
+	}
+	
+
+	.wpb_row.ish-text-color6,
+	.wpb_row.ish-text-color6 a,
+	.ish-sc_headline.ish-color6,
+	.ish-sc_headline.ish-color6 a,
+	.ish-sc_list.ish-color6 li:before,
+	.ish-sc_list.ish-color6.ish-noicon li:before,
+	.ish-sc_list.ish-text-color6,
+	.ish-sc_quote.ish-color6,
+	.ish-sc_quote.ish-color6 a,
+	.ish-p-overlay.ish-text-color6,
+	.ish-blog .wpb_row.ish-color6 h2 a,
+	.ish-blog .wpb_row.ish-color6 blockquote a,
+	.ish-blog .wpb_row.ish-color6 .ish-blog-post-details a:hover,
+	.ish-blog .wpb_row.ish-color6 .ish-blog-post-links i:before,
+	.ish-blog .wpb_row.ish-color6 .ish-blog-post-links a:hover,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color6 h2 a,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color6 .ish-blog-post-details a,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color6 .ish-blog-post-details a:hover,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color6 .ish-blog-post-details span,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color6 blockquote a,
+	.ish-blog.ish-blog-masonry .ish-text-color6,
+	.ish-blog.ish-blog-masonry .ish-text-color6 a,
+	.ish-blog.ish-blog-masonry .ish-text-color6 cite:before,
+	.ish-blog.ish-blog-masonry .ish-text-color6 .ish-blog-post-details a,
+	.ish-blog.ish-blog-masonry .ish-text-color6 .ish-blog-post-details a:hover,
+	.ish-blog.ish-blog-masonry .ish-text-color6 .ish-blog-post-details span,
+	.ish-blog.ish-blog-masonry .ish-text-color6 .ish-link-content a,
+	.ish-tagline-image.ish-text-color6 h1,
+	.ish-tagline-image.ish-text-color6 .ish-blog-post-details a,
+	.ish-tagline-colored.ish-text-color6 h1,
+	.ish-tagline-colored.ish-text-color6 .ish-blog-post-details a,
+	.ish-text-color6 .ish-section-filter li a:hover,
+	.ish-text-color6 .ish-section-filter li a.ish-active,
+	.ish-text-color6 .ish-section-filter li.current-cat a:hover,
+	.ish-recent_posts_post.ish-color6 h3 a,
+	.ish-sc-element.ish-sc_icon.ish-text-color6,
+	.ish-sc-element.ish-sc_icon.ish-text-color6 a, .ish-sc-element.ish-sc_icon.ish-text-color6 a:hover,
+	.ish-sc_skills .ish-sc_skill.ish-text-color6 .ish-bar-bg .ish-bar,
+	.ish-sc_skills .ish-sc_skill.ish-text-color6.ish-outside > span,
+	.ish-gmap_box.ish-text-color6, .ish-gmap_box.ish-text-color6 a, .ish-gmap_box.ish-text-color6 a:hover,
+	div.ish-recent_posts_post.ish-text-color6, div.ish-recent_posts_post.ish-text-color6 a, div.ish-recent_posts_post.ish-color6 h3 a,
+	.ish-sc-element.ish-prevnext-color6 .flex-direction-nav li a,
+	.ish-tgg-acc-title.ish-text-color6, .ish-tgg-acc-content.ish-text-color6,
+	.ish-sc_tab.ish-text-color6, .ish-tabs-navigation li.ish-text-color6 a,
+	.ish-sc_sidebar.ish-text-color6 .widget,
+	.ish-sc_sidebar.ish-link1-color6 .widget-title,
+	.ish-sc_sidebar.ish-link1-color6 .widget a,
+	.ish-sc_sidebar.ish-link2-color6 .widget_calendar #wp-calendar tfoot a,
+	.ish-sc_sidebar.ish-link2-color6 .widget_ishyoboy-recent-portfolio-widget a.ish-button-small,
+	.ish-sc_sidebar.ish-link2-color6 .widget_ishyoboy-dribbble-widget a.ish-button-small,
+	.ish-sc_sidebar.ish-link2-color6 .widget_ishyoboy-flickr-widget a.ish-button-small,
+	.ish-sc_sidebar.ish-link2-color6 .widget_ishyoboy-twitter-widget a.ish-button-small,
+
+	.ish-sc_sidebar.ish-block-text-color6 .widget select,
+	.ish-sc_sidebar.ish-block-text-color6 .widget option,
+	.ish-sc_sidebar.ish-block-text-color6 .widget_search input[type='text'],
+	.ish-sc_sidebar.ish-block-text-color6 .widget_search input[type='submit'],
+	.ish-sc_sidebar.ish-block-text-color6 .widget_tag_cloud a,
+	.ish-sc_sidebar.ish-block-text-color6 .widget_tag_cloud a:hover,
+
+	.ish-sc_cf7.ish-bg-text-color6 input,
+	.ish-sc_cf7.ish-bg-text-color6 textarea,
+	.ish-sc_cf7.ish-bg-text-color6 select,
+
+	.ish-sc_cf7.ish-text-color6,
+
+	.ish-sc_menu.ish-text-color6 li a,
+	.ish-sc_menu.ish-block-text-color6 li a:hover,
+	.ish-sc_menu.ish-block-text-color6 li.current_page_item a,
+	.wpb_text_column.ish-text-color6,
+	.tooltipster-default.ish-tooltip-text-color6,
+
+	.ish-sc_table.ish-text-color6,
+	.ish-sc_table.ish-header-text-color6 th,
+	.ish-sc_table th.ish-text-color6,
+	.ish-sc_table td.ish-text-color6,
+
+	.ish-sc_pricing_table.ish-text-color6,
+
+	.ish-sc_box.ish-text-color6
+
+	{
+		color: #27a6c3;
+	}
+
+	.ish-sc_button.ish-text-color6, a.ish-sc_button.ish-text-color6:hover,
+	.ish-sc_portfolio_categories.ish-text-color6, .ish-sc_portfolio_categories.ish-text-color6 a
+	{
+		color: #27a6c3 !important;
+	}
+
+	.ish-sc-element.ish-sc_icon.ish-text-color6:not([class*='ish-color']) a:hover,
+	.ish-recent_posts_post.ish-color6 h3 a:hover,
+	.ish-blog .wpb_row.ish-color6 h2 a:hover,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color6 h2 a:hover,
+	.ish-sc_sidebar.ish-link1-color6 .widget a:hover,
+
+	.ish-sc_sidebar.ish-link2-color6 .widget_calendar #wp-calendar tfoot a:hover,
+	.ish-sc_sidebar.ish-link2-color6 .widget_ishyoboy-recent-portfolio-widget a.ish-button-small:hover,
+	.ish-sc_sidebar.ish-link2-color6 .widget_ishyoboy-dribbble-widget a.ish-button-small:hover,
+	.ish-sc_sidebar.ish-link2-color6 .widget_ishyoboy-flickr-widget a.ish-button-small:hover,
+	.ish-sc_sidebar.ish-link2-color6 .widget_ishyoboy-twitter-widget a.ish-button-small:hover
+	{
+		color: #0e8daa;
+	}
+
+	.ish-sc-element.ish-prevnext-color6 .flex-direction-nav li a:hover
+	{
+		color: #007491;
+	}
+
+
+	.ish-tagline-image.ish-text-color6 h2,
+	.ish-tagline-colored.ish-text-color6 h2
+	{
+		color: rgba(39, 166, 195, 0.8);
+	}
+.ish-sc_cf7.ish-bg-text-color6 :-moz-placeholder{ color: rgba(39, 166, 195, 0.6); }
+.ish-sc_cf7.ish-bg-text-color6 ::-webkit-input-placeholder{ color: rgba(39, 166, 195, 0.6); }
+.ish-sc_cf7.ish-bg-text-color6 .placeholder{ color: rgba(39, 166, 195, 0.6); }
+
+
+	.ish-tagline-image.ish-text-color6 .ish-blog-post-details,
+	.ish-tagline-image.ish-text-color6 .ish-blog-post-details span,
+	.ish-tagline-image.ish-text-color6 .ish-blog-post-details a:hover,
+	.ish-tagline-colored.ish-text-color6 .ish-blog-post-details,
+	.ish-tagline-colored.ish-text-color6 .ish-blog-post-details span,
+	.ish-tagline-colored.ish-text-color6 .ish-blog-post-details a:hover,
+	.ish-text-color6 .ish-section-filter li a
+	{
+		color: rgba(39, 166, 195, 0.6);
+	}
+
+	.ish-sc_sidebar.ish-block-text-color6 .widget_search input[type='text']:-moz-placeholder           { color: rgba(39, 166, 195, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color6 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(39, 166, 195, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color6 .widget_search input[type='text'].placeholder                { color: rgba(39, 166, 195, 0.6); }
+	
+
+	.wpb_row.ish-color6,
+	.ish-row-overlay.ish-color6,
+	.ish-sc_svg_icon.ish-square.ish-color6,
+	.ish-sc_svg_icon.ish-circle.ish-color6,
+	.ish-gmap_box.ish-color6,
+	.ish-blog .wpb_row.ish-color6 .ish-blog-post-links:after,
+	.ish-blog-post-masonry.ish-color6,
+	.ish-blog-post-masonry.ish-color6.ish-image-cover .ish-blog-post-media + div,
+	.ish-blog-post-masonry.ish-text-color6.ish-image-cover .ish-blog-post-media + div:before,
+	.ish-tagline-colored.ish-color6 .ish-overlay,
+	.ish-sc_icon.ish-color6.ish-square span span,
+	.ish-sc_icon.ish-color6.ish-circle span span,
+	.ish-sc_skills .ish-sc_skill.ish-skill-color6 .ish-bar-bg .ish-bar,
+	.ish-sc_skills .ish-sc_skill.ish-color6 .ish-bar-bg,
+	.ish-sc-element.ish-nav-color6 .flex-control-nav li a,
+	.ish-tgg-acc-title.ish-color6, .ish-tgg-acc-content.ish-color6,
+	.ish-sc_tab.ish-color6, .ish-tabs-navigation li.ish-color6 a,
+	.ish-sc_separator.ish-separator-bold.ish-color6,
+	.ish-sc_separator.ish-separator-thin-bold.ish-color6:before,
+
+	.ish-sc_sidebar.ish-block-bg-color6 .widget select,
+	.ish-sc_sidebar.ish-block-bg-color6 .widget option,
+	.ish-sc_sidebar.ish-block-bg-color6 .widget_search input[type='text'],
+	.ish-sc_sidebar.ish-block-bg-color6 .widget_tag_cloud a,
+
+	.ish-sc_cf7.ish-color6 input,
+	.ish-sc_cf7.ish-color6 textarea,
+	.ish-sc_cf7.ish-color6 select,
+	.tooltipster-default.ish-tooltip-color6,
+
+	.ish-sc_table.ish-color6 td,
+	.ish-sc_table.ish-color6 th,
+	.ish-sc_table.ish-header-bg-color6 table th,
+	.ish-sc_table table th.ish-color6,
+	.ish-sc_table table td.ish-color6,
+
+	.ish-sc_pricing_table.ish-color6 table,
+
+	.ish-sc_box.ish-color6
+
+	{
+		background-color: #27a6c3;
+	}
+
+	.ish-sc_icon.ish-color6.ish-square a:hover span span,
+	.ish-sc_icon.ish-color6.ish-circle a:hover span span,
+	.ish-sc_svg_icon.ish-square.ish-color6 a:hover,
+	.ish-sc_svg_icon.ish-circle.ish-color6 a:hover,
+	.ish-tgg-acc-title.ish-color6:hover, .ish-tgg-acc-title.ish-color6.ish-active,
+	.ish-sc_sidebar.ish-block-bg-color6 .widget_search input[type='submit']:hover,
+	.ish-blog-post-masonry.ish-color6:hover > div,
+	.ish-blog-post-masonry.ish-color6.ish-image-cover:hover .ish-blog-post-media + div
+	{
+		background-color: #0e8daa;
+	}
+
+	.ish-sc-element.ish-nav-color6 .flex-control-nav li a:hover, .ish-sc-element.ish-nav-color6 .flex-control-nav li a.flex-active
+	{
+		background-color: #007491;
+	}
+
+	.ish-sc_table.ish-striped.ish-color6 table tr:nth-child(even) td,
+	.ish-sc_pricing_table.ish-striped.ish-color6 tr:nth-child(even) td
+	{
+		background-color: #1d9cb9;
+	}
+
+	.ish-sc_table.ish-striped table tr:nth-child(even) td.ish-color6
+	{
+		background-color: #1d9cb9 !important;
+	}
+
+	.ish-sc_button.ish-color6,
+	.ish-tgg-acc-title.ish-color6,
+	.ish-tabs-navigation li.ish-color6 a,
+	.ish-sc_cf7.ish-color6 input[type="submit"],
+	.ish-sc_menu.ish-color6 li a,
+	.ish-sc_menu.ish-block-bg-color6 li a:hover,
+	.ish-sc_menu.ish-block-bg-color6 li.current_page_item a
+	{
+		background-color: #27a6c3;
+		box-shadow: 0 3px 0 #0e8daa;
+	}
+
+	a.ish-sc_button.ish-color6:hover,
+	.ish-tgg-acc-title.ish-color6:hover, .ish-tgg-acc-title.ish-color6.ish-active,
+	.ish-tabs-navigation li.ish-color6 a:hover, .ish-tabs-navigation li.ish-color6.ish-active a,
+	.ish-sc_sidebar.ish-block-bg-color6 .widget_tag_cloud a:hover,
+	.ish-sc_cf7.ish-color6 input[type="submit"]:hover,
+	.ish-sc_menu.ish-no-active-bg.ish-color6 li a:hover,
+	.ish-sc_menu.ish-no-active-bg.ish-color6 li.current_page_item a,
+	.ish-sc_menu.ish-block-bg-color6 li.current_page_item a:hover
+	{
+		background-color: #0e8daa;
+		box-shadow: 0 3px 0 #007491;
+	}
+
+	.ish-sc_icon.ish-hexagon.ish-color6 svg polygon,
+	.ish-sc_icon.ish-hexagon_rounded.ish-color6 svg path,
+	.ish-sc_svg_icon.ish-hexagon.ish-color6 svg polygon,
+	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color6 svg path,
+	.ish-row_section.ish-color6 .ish-row-decor-top polyline.ish-color,
+	.ish-row_section.ish-color6 .ish-row-decor-bottom polyline.ish-color,
+	.ish-row_section.ish-color6 .ish-row-decor-top path.ish-color,
+	.ish-row_section.ish-color6 .ish-row-decor-bottom path.ish-color,
+	.ish-row_section.ish-color6 .ish-row-decor-top polygon.ish-color,
+	.ish-row_section.ish-color6 .ish-row-decor-bottom polygon.ish-color,
+	.ish-row_section.ish-color6 .ish-row-decor-top rect.ish-color,
+	.ish-row_section.ish-color6 .ish-row-decor-bottom rect.ish-color
+	{
+		fill: #27a6c3;
+	}
+
+	.ish-sc_icon.ish-hexagon.ish-color6 a:hover svg polygon,
+	.ish-sc_icon.ish-hexagon_rounded.ish-color6 a:hover svg path,
+	.ish-sc_svg_icon.ish-hexagon.ish-color6 a:hover svg polygon,
+	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color6 a:hover svg path
+	{
+		fill: #0e8daa;
+	}
+
+	.ish-p-overlay.ish-color6 > span,
+	.ish-blog-fullwidth .wpb_row.ish-color6 > .ish-overlay,
+	.ish-tagline-image.ish-color6 .ish-overlay
+	{
+		background-color: rgba(39, 166, 195, 0.9);
+	}
+
+	.ish-gmap_box.ish-color6:before,
+	.ish-blog.ish-blog-masonry .ish-text-color6 blockquote,
+	.ish-sc_separator.ish-separator-thin.ish-color6,
+	.ish-sc_separator.ish-separator-thin-bold.ish-color6,
+	.ish-color6 .recent_posts_post_content .post-quote-content,
+	.ish-sc_table.ish-border-color6 th, .ish-sc_table.ish-border-color6 tr, .ish-sc_table.ish-border-color6 td,
+	.ish-sc_pricing_table.ish-border-color6 th, .ish-sc_pricing_table.ish-border-color6 tr, .ish-sc_pricing_table.ish-border-color6 td
+	{
+		border-color: #27a6c3;
+	}
+
+	.ish-sc_sidebar.ish-block-bg-color6 .widget_tag_cloud a
+	{
+		box-shadow: 0 3px 0 #0e8daa;
+	}
+	
+
+	.ish-tooltip-color6 .tooltipster-arrow-top span,
+	.ish-tooltip-color6 .tooltipster-arrow-bottom span{
+		border-top-color: #27a6c3 !important;
+		border-bottom-color: #27a6c3 !important;
+	}
+
+	.ish-tooltip-color6 .tooltipster-arrow-left span,
+	.ish-tooltip-color6 .tooltipster-arrow-right span{
+		border-left-color: #27a6c3 !important;
+		border-right-color: #27a6c3 !important;
+	}
+	
+
+	.wpb_row.ish-text-color7,
+	.wpb_row.ish-text-color7 a,
+	.ish-sc_headline.ish-color7,
+	.ish-sc_headline.ish-color7 a,
+	.ish-sc_list.ish-color7 li:before,
+	.ish-sc_list.ish-color7.ish-noicon li:before,
+	.ish-sc_list.ish-text-color7,
+	.ish-sc_quote.ish-color7,
+	.ish-sc_quote.ish-color7 a,
+	.ish-p-overlay.ish-text-color7,
+	.ish-blog .wpb_row.ish-color7 h2 a,
+	.ish-blog .wpb_row.ish-color7 blockquote a,
+	.ish-blog .wpb_row.ish-color7 .ish-blog-post-details a:hover,
+	.ish-blog .wpb_row.ish-color7 .ish-blog-post-links i:before,
+	.ish-blog .wpb_row.ish-color7 .ish-blog-post-links a:hover,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color7 h2 a,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color7 .ish-blog-post-details a,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color7 .ish-blog-post-details a:hover,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color7 .ish-blog-post-details span,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color7 blockquote a,
+	.ish-blog.ish-blog-masonry .ish-text-color7,
+	.ish-blog.ish-blog-masonry .ish-text-color7 a,
+	.ish-blog.ish-blog-masonry .ish-text-color7 cite:before,
+	.ish-blog.ish-blog-masonry .ish-text-color7 .ish-blog-post-details a,
+	.ish-blog.ish-blog-masonry .ish-text-color7 .ish-blog-post-details a:hover,
+	.ish-blog.ish-blog-masonry .ish-text-color7 .ish-blog-post-details span,
+	.ish-blog.ish-blog-masonry .ish-text-color7 .ish-link-content a,
+	.ish-tagline-image.ish-text-color7 h1,
+	.ish-tagline-image.ish-text-color7 .ish-blog-post-details a,
+	.ish-tagline-colored.ish-text-color7 h1,
+	.ish-tagline-colored.ish-text-color7 .ish-blog-post-details a,
+	.ish-text-color7 .ish-section-filter li a:hover,
+	.ish-text-color7 .ish-section-filter li a.ish-active,
+	.ish-text-color7 .ish-section-filter li.current-cat a:hover,
+	.ish-recent_posts_post.ish-color7 h3 a,
+	.ish-sc-element.ish-sc_icon.ish-text-color7,
+	.ish-sc-element.ish-sc_icon.ish-text-color7 a, .ish-sc-element.ish-sc_icon.ish-text-color7 a:hover,
+	.ish-sc_skills .ish-sc_skill.ish-text-color7 .ish-bar-bg .ish-bar,
+	.ish-sc_skills .ish-sc_skill.ish-text-color7.ish-outside > span,
+	.ish-gmap_box.ish-text-color7, .ish-gmap_box.ish-text-color7 a, .ish-gmap_box.ish-text-color7 a:hover,
+	div.ish-recent_posts_post.ish-text-color7, div.ish-recent_posts_post.ish-text-color7 a, div.ish-recent_posts_post.ish-color7 h3 a,
+	.ish-sc-element.ish-prevnext-color7 .flex-direction-nav li a,
+	.ish-tgg-acc-title.ish-text-color7, .ish-tgg-acc-content.ish-text-color7,
+	.ish-sc_tab.ish-text-color7, .ish-tabs-navigation li.ish-text-color7 a,
+	.ish-sc_sidebar.ish-text-color7 .widget,
+	.ish-sc_sidebar.ish-link1-color7 .widget-title,
+	.ish-sc_sidebar.ish-link1-color7 .widget a,
+	.ish-sc_sidebar.ish-link2-color7 .widget_calendar #wp-calendar tfoot a,
+	.ish-sc_sidebar.ish-link2-color7 .widget_ishyoboy-recent-portfolio-widget a.ish-button-small,
+	.ish-sc_sidebar.ish-link2-color7 .widget_ishyoboy-dribbble-widget a.ish-button-small,
+	.ish-sc_sidebar.ish-link2-color7 .widget_ishyoboy-flickr-widget a.ish-button-small,
+	.ish-sc_sidebar.ish-link2-color7 .widget_ishyoboy-twitter-widget a.ish-button-small,
+
+	.ish-sc_sidebar.ish-block-text-color7 .widget select,
+	.ish-sc_sidebar.ish-block-text-color7 .widget option,
+	.ish-sc_sidebar.ish-block-text-color7 .widget_search input[type='text'],
+	.ish-sc_sidebar.ish-block-text-color7 .widget_search input[type='submit'],
+	.ish-sc_sidebar.ish-block-text-color7 .widget_tag_cloud a,
+	.ish-sc_sidebar.ish-block-text-color7 .widget_tag_cloud a:hover,
+
+	.ish-sc_cf7.ish-bg-text-color7 input,
+	.ish-sc_cf7.ish-bg-text-color7 textarea,
+	.ish-sc_cf7.ish-bg-text-color7 select,
+
+	.ish-sc_cf7.ish-text-color7,
+
+	.ish-sc_menu.ish-text-color7 li a,
+	.ish-sc_menu.ish-block-text-color7 li a:hover,
+	.ish-sc_menu.ish-block-text-color7 li.current_page_item a,
+	.wpb_text_column.ish-text-color7,
+	.tooltipster-default.ish-tooltip-text-color7,
+
+	.ish-sc_table.ish-text-color7,
+	.ish-sc_table.ish-header-text-color7 th,
+	.ish-sc_table th.ish-text-color7,
+	.ish-sc_table td.ish-text-color7,
+
+	.ish-sc_pricing_table.ish-text-color7,
+
+	.ish-sc_box.ish-text-color7
+
+	{
+		color: #2b586e;
+	}
+
+	.ish-sc_button.ish-text-color7, a.ish-sc_button.ish-text-color7:hover,
+	.ish-sc_portfolio_categories.ish-text-color7, .ish-sc_portfolio_categories.ish-text-color7 a
+	{
+		color: #2b586e !important;
+	}
+
+	.ish-sc-element.ish-sc_icon.ish-text-color7:not([class*='ish-color']) a:hover,
+	.ish-recent_posts_post.ish-color7 h3 a:hover,
+	.ish-blog .wpb_row.ish-color7 h2 a:hover,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color7 h2 a:hover,
+	.ish-sc_sidebar.ish-link1-color7 .widget a:hover,
+
+	.ish-sc_sidebar.ish-link2-color7 .widget_calendar #wp-calendar tfoot a:hover,
+	.ish-sc_sidebar.ish-link2-color7 .widget_ishyoboy-recent-portfolio-widget a.ish-button-small:hover,
+	.ish-sc_sidebar.ish-link2-color7 .widget_ishyoboy-dribbble-widget a.ish-button-small:hover,
+	.ish-sc_sidebar.ish-link2-color7 .widget_ishyoboy-flickr-widget a.ish-button-small:hover,
+	.ish-sc_sidebar.ish-link2-color7 .widget_ishyoboy-twitter-widget a.ish-button-small:hover
+	{
+		color: #123f55;
+	}
+
+	.ish-sc-element.ish-prevnext-color7 .flex-direction-nav li a:hover
+	{
+		color: #00263c;
+	}
+
+
+	.ish-tagline-image.ish-text-color7 h2,
+	.ish-tagline-colored.ish-text-color7 h2
+	{
+		color: rgba(43, 88, 110, 0.8);
+	}
+.ish-sc_cf7.ish-bg-text-color7 :-moz-placeholder{ color: rgba(43, 88, 110, 0.6); }
+.ish-sc_cf7.ish-bg-text-color7 ::-webkit-input-placeholder{ color: rgba(43, 88, 110, 0.6); }
+.ish-sc_cf7.ish-bg-text-color7 .placeholder{ color: rgba(43, 88, 110, 0.6); }
+
+
+	.ish-tagline-image.ish-text-color7 .ish-blog-post-details,
+	.ish-tagline-image.ish-text-color7 .ish-blog-post-details span,
+	.ish-tagline-image.ish-text-color7 .ish-blog-post-details a:hover,
+	.ish-tagline-colored.ish-text-color7 .ish-blog-post-details,
+	.ish-tagline-colored.ish-text-color7 .ish-blog-post-details span,
+	.ish-tagline-colored.ish-text-color7 .ish-blog-post-details a:hover,
+	.ish-text-color7 .ish-section-filter li a
+	{
+		color: rgba(43, 88, 110, 0.6);
+	}
+
+	.ish-sc_sidebar.ish-block-text-color7 .widget_search input[type='text']:-moz-placeholder           { color: rgba(43, 88, 110, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color7 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(43, 88, 110, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color7 .widget_search input[type='text'].placeholder                { color: rgba(43, 88, 110, 0.6); }
+	
+
+	.wpb_row.ish-color7,
+	.ish-row-overlay.ish-color7,
+	.ish-sc_svg_icon.ish-square.ish-color7,
+	.ish-sc_svg_icon.ish-circle.ish-color7,
+	.ish-gmap_box.ish-color7,
+	.ish-blog .wpb_row.ish-color7 .ish-blog-post-links:after,
+	.ish-blog-post-masonry.ish-color7,
+	.ish-blog-post-masonry.ish-color7.ish-image-cover .ish-blog-post-media + div,
+	.ish-blog-post-masonry.ish-text-color7.ish-image-cover .ish-blog-post-media + div:before,
+	.ish-tagline-colored.ish-color7 .ish-overlay,
+	.ish-sc_icon.ish-color7.ish-square span span,
+	.ish-sc_icon.ish-color7.ish-circle span span,
+	.ish-sc_skills .ish-sc_skill.ish-skill-color7 .ish-bar-bg .ish-bar,
+	.ish-sc_skills .ish-sc_skill.ish-color7 .ish-bar-bg,
+	.ish-sc-element.ish-nav-color7 .flex-control-nav li a,
+	.ish-tgg-acc-title.ish-color7, .ish-tgg-acc-content.ish-color7,
+	.ish-sc_tab.ish-color7, .ish-tabs-navigation li.ish-color7 a,
+	.ish-sc_separator.ish-separator-bold.ish-color7,
+	.ish-sc_separator.ish-separator-thin-bold.ish-color7:before,
+
+	.ish-sc_sidebar.ish-block-bg-color7 .widget select,
+	.ish-sc_sidebar.ish-block-bg-color7 .widget option,
+	.ish-sc_sidebar.ish-block-bg-color7 .widget_search input[type='text'],
+	.ish-sc_sidebar.ish-block-bg-color7 .widget_tag_cloud a,
+
+	.ish-sc_cf7.ish-color7 input,
+	.ish-sc_cf7.ish-color7 textarea,
+	.ish-sc_cf7.ish-color7 select,
+	.tooltipster-default.ish-tooltip-color7,
+
+	.ish-sc_table.ish-color7 td,
+	.ish-sc_table.ish-color7 th,
+	.ish-sc_table.ish-header-bg-color7 table th,
+	.ish-sc_table table th.ish-color7,
+	.ish-sc_table table td.ish-color7,
+
+	.ish-sc_pricing_table.ish-color7 table,
+
+	.ish-sc_box.ish-color7
+
+	{
+		background-color: #2b586e;
+	}
+
+	.ish-sc_icon.ish-color7.ish-square a:hover span span,
+	.ish-sc_icon.ish-color7.ish-circle a:hover span span,
+	.ish-sc_svg_icon.ish-square.ish-color7 a:hover,
+	.ish-sc_svg_icon.ish-circle.ish-color7 a:hover,
+	.ish-tgg-acc-title.ish-color7:hover, .ish-tgg-acc-title.ish-color7.ish-active,
+	.ish-sc_sidebar.ish-block-bg-color7 .widget_search input[type='submit']:hover,
+	.ish-blog-post-masonry.ish-color7:hover > div,
+	.ish-blog-post-masonry.ish-color7.ish-image-cover:hover .ish-blog-post-media + div
+	{
+		background-color: #123f55;
+	}
+
+	.ish-sc-element.ish-nav-color7 .flex-control-nav li a:hover, .ish-sc-element.ish-nav-color7 .flex-control-nav li a.flex-active
+	{
+		background-color: #00263c;
+	}
+
+	.ish-sc_table.ish-striped.ish-color7 table tr:nth-child(even) td,
+	.ish-sc_pricing_table.ish-striped.ish-color7 tr:nth-child(even) td
+	{
+		background-color: #214e64;
+	}
+
+	.ish-sc_table.ish-striped table tr:nth-child(even) td.ish-color7
+	{
+		background-color: #214e64 !important;
+	}
+
+	.ish-sc_button.ish-color7,
+	.ish-tgg-acc-title.ish-color7,
+	.ish-tabs-navigation li.ish-color7 a,
+	.ish-sc_cf7.ish-color7 input[type="submit"],
+	.ish-sc_menu.ish-color7 li a,
+	.ish-sc_menu.ish-block-bg-color7 li a:hover,
+	.ish-sc_menu.ish-block-bg-color7 li.current_page_item a
+	{
+		background-color: #2b586e;
+		box-shadow: 0 3px 0 #123f55;
+	}
+
+	a.ish-sc_button.ish-color7:hover,
+	.ish-tgg-acc-title.ish-color7:hover, .ish-tgg-acc-title.ish-color7.ish-active,
+	.ish-tabs-navigation li.ish-color7 a:hover, .ish-tabs-navigation li.ish-color7.ish-active a,
+	.ish-sc_sidebar.ish-block-bg-color7 .widget_tag_cloud a:hover,
+	.ish-sc_cf7.ish-color7 input[type="submit"]:hover,
+	.ish-sc_menu.ish-no-active-bg.ish-color7 li a:hover,
+	.ish-sc_menu.ish-no-active-bg.ish-color7 li.current_page_item a,
+	.ish-sc_menu.ish-block-bg-color7 li.current_page_item a:hover
+	{
+		background-color: #123f55;
+		box-shadow: 0 3px 0 #00263c;
+	}
+
+	.ish-sc_icon.ish-hexagon.ish-color7 svg polygon,
+	.ish-sc_icon.ish-hexagon_rounded.ish-color7 svg path,
+	.ish-sc_svg_icon.ish-hexagon.ish-color7 svg polygon,
+	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color7 svg path,
+	.ish-row_section.ish-color7 .ish-row-decor-top polyline.ish-color,
+	.ish-row_section.ish-color7 .ish-row-decor-bottom polyline.ish-color,
+	.ish-row_section.ish-color7 .ish-row-decor-top path.ish-color,
+	.ish-row_section.ish-color7 .ish-row-decor-bottom path.ish-color,
+	.ish-row_section.ish-color7 .ish-row-decor-top polygon.ish-color,
+	.ish-row_section.ish-color7 .ish-row-decor-bottom polygon.ish-color,
+	.ish-row_section.ish-color7 .ish-row-decor-top rect.ish-color,
+	.ish-row_section.ish-color7 .ish-row-decor-bottom rect.ish-color
+	{
+		fill: #2b586e;
+	}
+
+	.ish-sc_icon.ish-hexagon.ish-color7 a:hover svg polygon,
+	.ish-sc_icon.ish-hexagon_rounded.ish-color7 a:hover svg path,
+	.ish-sc_svg_icon.ish-hexagon.ish-color7 a:hover svg polygon,
+	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color7 a:hover svg path
+	{
+		fill: #123f55;
+	}
+
+	.ish-p-overlay.ish-color7 > span,
+	.ish-blog-fullwidth .wpb_row.ish-color7 > .ish-overlay,
+	.ish-tagline-image.ish-color7 .ish-overlay
+	{
+		background-color: rgba(43, 88, 110, 0.9);
+	}
+
+	.ish-gmap_box.ish-color7:before,
+	.ish-blog.ish-blog-masonry .ish-text-color7 blockquote,
+	.ish-sc_separator.ish-separator-thin.ish-color7,
+	.ish-sc_separator.ish-separator-thin-bold.ish-color7,
+	.ish-color7 .recent_posts_post_content .post-quote-content,
+	.ish-sc_table.ish-border-color7 th, .ish-sc_table.ish-border-color7 tr, .ish-sc_table.ish-border-color7 td,
+	.ish-sc_pricing_table.ish-border-color7 th, .ish-sc_pricing_table.ish-border-color7 tr, .ish-sc_pricing_table.ish-border-color7 td
+	{
+		border-color: #2b586e;
+	}
+
+	.ish-sc_sidebar.ish-block-bg-color7 .widget_tag_cloud a
+	{
+		box-shadow: 0 3px 0 #123f55;
+	}
+	
+
+	.ish-tooltip-color7 .tooltipster-arrow-top span,
+	.ish-tooltip-color7 .tooltipster-arrow-bottom span{
+		border-top-color: #2b586e !important;
+		border-bottom-color: #2b586e !important;
+	}
+
+	.ish-tooltip-color7 .tooltipster-arrow-left span,
+	.ish-tooltip-color7 .tooltipster-arrow-right span{
+		border-left-color: #2b586e !important;
+		border-right-color: #2b586e !important;
+	}
+	
+
+	.wpb_row.ish-text-color8,
+	.wpb_row.ish-text-color8 a,
+	.ish-sc_headline.ish-color8,
+	.ish-sc_headline.ish-color8 a,
+	.ish-sc_list.ish-color8 li:before,
+	.ish-sc_list.ish-color8.ish-noicon li:before,
+	.ish-sc_list.ish-text-color8,
+	.ish-sc_quote.ish-color8,
+	.ish-sc_quote.ish-color8 a,
+	.ish-p-overlay.ish-text-color8,
+	.ish-blog .wpb_row.ish-color8 h2 a,
+	.ish-blog .wpb_row.ish-color8 blockquote a,
+	.ish-blog .wpb_row.ish-color8 .ish-blog-post-details a:hover,
+	.ish-blog .wpb_row.ish-color8 .ish-blog-post-links i:before,
+	.ish-blog .wpb_row.ish-color8 .ish-blog-post-links a:hover,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color8 h2 a,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color8 .ish-blog-post-details a,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color8 .ish-blog-post-details a:hover,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color8 .ish-blog-post-details span,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color8 blockquote a,
+	.ish-blog.ish-blog-masonry .ish-text-color8,
+	.ish-blog.ish-blog-masonry .ish-text-color8 a,
+	.ish-blog.ish-blog-masonry .ish-text-color8 cite:before,
+	.ish-blog.ish-blog-masonry .ish-text-color8 .ish-blog-post-details a,
+	.ish-blog.ish-blog-masonry .ish-text-color8 .ish-blog-post-details a:hover,
+	.ish-blog.ish-blog-masonry .ish-text-color8 .ish-blog-post-details span,
+	.ish-blog.ish-blog-masonry .ish-text-color8 .ish-link-content a,
+	.ish-tagline-image.ish-text-color8 h1,
+	.ish-tagline-image.ish-text-color8 .ish-blog-post-details a,
+	.ish-tagline-colored.ish-text-color8 h1,
+	.ish-tagline-colored.ish-text-color8 .ish-blog-post-details a,
+	.ish-text-color8 .ish-section-filter li a:hover,
+	.ish-text-color8 .ish-section-filter li a.ish-active,
+	.ish-text-color8 .ish-section-filter li.current-cat a:hover,
+	.ish-recent_posts_post.ish-color8 h3 a,
+	.ish-sc-element.ish-sc_icon.ish-text-color8,
+	.ish-sc-element.ish-sc_icon.ish-text-color8 a, .ish-sc-element.ish-sc_icon.ish-text-color8 a:hover,
+	.ish-sc_skills .ish-sc_skill.ish-text-color8 .ish-bar-bg .ish-bar,
+	.ish-sc_skills .ish-sc_skill.ish-text-color8.ish-outside > span,
+	.ish-gmap_box.ish-text-color8, .ish-gmap_box.ish-text-color8 a, .ish-gmap_box.ish-text-color8 a:hover,
+	div.ish-recent_posts_post.ish-text-color8, div.ish-recent_posts_post.ish-text-color8 a, div.ish-recent_posts_post.ish-color8 h3 a,
+	.ish-sc-element.ish-prevnext-color8 .flex-direction-nav li a,
+	.ish-tgg-acc-title.ish-text-color8, .ish-tgg-acc-content.ish-text-color8,
+	.ish-sc_tab.ish-text-color8, .ish-tabs-navigation li.ish-text-color8 a,
+	.ish-sc_sidebar.ish-text-color8 .widget,
+	.ish-sc_sidebar.ish-link1-color8 .widget-title,
+	.ish-sc_sidebar.ish-link1-color8 .widget a,
+	.ish-sc_sidebar.ish-link2-color8 .widget_calendar #wp-calendar tfoot a,
+	.ish-sc_sidebar.ish-link2-color8 .widget_ishyoboy-recent-portfolio-widget a.ish-button-small,
+	.ish-sc_sidebar.ish-link2-color8 .widget_ishyoboy-dribbble-widget a.ish-button-small,
+	.ish-sc_sidebar.ish-link2-color8 .widget_ishyoboy-flickr-widget a.ish-button-small,
+	.ish-sc_sidebar.ish-link2-color8 .widget_ishyoboy-twitter-widget a.ish-button-small,
+
+	.ish-sc_sidebar.ish-block-text-color8 .widget select,
+	.ish-sc_sidebar.ish-block-text-color8 .widget option,
+	.ish-sc_sidebar.ish-block-text-color8 .widget_search input[type='text'],
+	.ish-sc_sidebar.ish-block-text-color8 .widget_search input[type='submit'],
+	.ish-sc_sidebar.ish-block-text-color8 .widget_tag_cloud a,
+	.ish-sc_sidebar.ish-block-text-color8 .widget_tag_cloud a:hover,
+
+	.ish-sc_cf7.ish-bg-text-color8 input,
+	.ish-sc_cf7.ish-bg-text-color8 textarea,
+	.ish-sc_cf7.ish-bg-text-color8 select,
+
+	.ish-sc_cf7.ish-text-color8,
+
+	.ish-sc_menu.ish-text-color8 li a,
+	.ish-sc_menu.ish-block-text-color8 li a:hover,
+	.ish-sc_menu.ish-block-text-color8 li.current_page_item a,
+	.wpb_text_column.ish-text-color8,
+	.tooltipster-default.ish-tooltip-text-color8,
+
+	.ish-sc_table.ish-text-color8,
+	.ish-sc_table.ish-header-text-color8 th,
+	.ish-sc_table th.ish-text-color8,
+	.ish-sc_table td.ish-text-color8,
+
+	.ish-sc_pricing_table.ish-text-color8,
+
+	.ish-sc_box.ish-text-color8
+
+	{
+		color: #19e785;
+	}
+
+	.ish-sc_button.ish-text-color8, a.ish-sc_button.ish-text-color8:hover,
+	.ish-sc_portfolio_categories.ish-text-color8, .ish-sc_portfolio_categories.ish-text-color8 a
+	{
+		color: #19e785 !important;
+	}
+
+	.ish-sc-element.ish-sc_icon.ish-text-color8:not([class*='ish-color']) a:hover,
+	.ish-recent_posts_post.ish-color8 h3 a:hover,
+	.ish-blog .wpb_row.ish-color8 h2 a:hover,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color8 h2 a:hover,
+	.ish-sc_sidebar.ish-link1-color8 .widget a:hover,
+
+	.ish-sc_sidebar.ish-link2-color8 .widget_calendar #wp-calendar tfoot a:hover,
+	.ish-sc_sidebar.ish-link2-color8 .widget_ishyoboy-recent-portfolio-widget a.ish-button-small:hover,
+	.ish-sc_sidebar.ish-link2-color8 .widget_ishyoboy-dribbble-widget a.ish-button-small:hover,
+	.ish-sc_sidebar.ish-link2-color8 .widget_ishyoboy-flickr-widget a.ish-button-small:hover,
+	.ish-sc_sidebar.ish-link2-color8 .widget_ishyoboy-twitter-widget a.ish-button-small:hover
+	{
+		color: #00ce6c;
+	}
+
+	.ish-sc-element.ish-prevnext-color8 .flex-direction-nav li a:hover
+	{
+		color: #00b553;
+	}
+
+
+	.ish-tagline-image.ish-text-color8 h2,
+	.ish-tagline-colored.ish-text-color8 h2
+	{
+		color: rgba(25, 231, 133, 0.8);
+	}
+.ish-sc_cf7.ish-bg-text-color8 :-moz-placeholder{ color: rgba(25, 231, 133, 0.6); }
+.ish-sc_cf7.ish-bg-text-color8 ::-webkit-input-placeholder{ color: rgba(25, 231, 133, 0.6); }
+.ish-sc_cf7.ish-bg-text-color8 .placeholder{ color: rgba(25, 231, 133, 0.6); }
+
+
+	.ish-tagline-image.ish-text-color8 .ish-blog-post-details,
+	.ish-tagline-image.ish-text-color8 .ish-blog-post-details span,
+	.ish-tagline-image.ish-text-color8 .ish-blog-post-details a:hover,
+	.ish-tagline-colored.ish-text-color8 .ish-blog-post-details,
+	.ish-tagline-colored.ish-text-color8 .ish-blog-post-details span,
+	.ish-tagline-colored.ish-text-color8 .ish-blog-post-details a:hover,
+	.ish-text-color8 .ish-section-filter li a
+	{
+		color: rgba(25, 231, 133, 0.6);
+	}
+
+	.ish-sc_sidebar.ish-block-text-color8 .widget_search input[type='text']:-moz-placeholder           { color: rgba(25, 231, 133, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color8 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(25, 231, 133, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color8 .widget_search input[type='text'].placeholder                { color: rgba(25, 231, 133, 0.6); }
+	
+
+	.wpb_row.ish-color8,
+	.ish-row-overlay.ish-color8,
+	.ish-sc_svg_icon.ish-square.ish-color8,
+	.ish-sc_svg_icon.ish-circle.ish-color8,
+	.ish-gmap_box.ish-color8,
+	.ish-blog .wpb_row.ish-color8 .ish-blog-post-links:after,
+	.ish-blog-post-masonry.ish-color8,
+	.ish-blog-post-masonry.ish-color8.ish-image-cover .ish-blog-post-media + div,
+	.ish-blog-post-masonry.ish-text-color8.ish-image-cover .ish-blog-post-media + div:before,
+	.ish-tagline-colored.ish-color8 .ish-overlay,
+	.ish-sc_icon.ish-color8.ish-square span span,
+	.ish-sc_icon.ish-color8.ish-circle span span,
+	.ish-sc_skills .ish-sc_skill.ish-skill-color8 .ish-bar-bg .ish-bar,
+	.ish-sc_skills .ish-sc_skill.ish-color8 .ish-bar-bg,
+	.ish-sc-element.ish-nav-color8 .flex-control-nav li a,
+	.ish-tgg-acc-title.ish-color8, .ish-tgg-acc-content.ish-color8,
+	.ish-sc_tab.ish-color8, .ish-tabs-navigation li.ish-color8 a,
+	.ish-sc_separator.ish-separator-bold.ish-color8,
+	.ish-sc_separator.ish-separator-thin-bold.ish-color8:before,
+
+	.ish-sc_sidebar.ish-block-bg-color8 .widget select,
+	.ish-sc_sidebar.ish-block-bg-color8 .widget option,
+	.ish-sc_sidebar.ish-block-bg-color8 .widget_search input[type='text'],
+	.ish-sc_sidebar.ish-block-bg-color8 .widget_tag_cloud a,
+
+	.ish-sc_cf7.ish-color8 input,
+	.ish-sc_cf7.ish-color8 textarea,
+	.ish-sc_cf7.ish-color8 select,
+	.tooltipster-default.ish-tooltip-color8,
+
+	.ish-sc_table.ish-color8 td,
+	.ish-sc_table.ish-color8 th,
+	.ish-sc_table.ish-header-bg-color8 table th,
+	.ish-sc_table table th.ish-color8,
+	.ish-sc_table table td.ish-color8,
+
+	.ish-sc_pricing_table.ish-color8 table,
+
+	.ish-sc_box.ish-color8
+
+	{
+		background-color: #19e785;
+	}
+
+	.ish-sc_icon.ish-color8.ish-square a:hover span span,
+	.ish-sc_icon.ish-color8.ish-circle a:hover span span,
+	.ish-sc_svg_icon.ish-square.ish-color8 a:hover,
+	.ish-sc_svg_icon.ish-circle.ish-color8 a:hover,
+	.ish-tgg-acc-title.ish-color8:hover, .ish-tgg-acc-title.ish-color8.ish-active,
+	.ish-sc_sidebar.ish-block-bg-color8 .widget_search input[type='submit']:hover,
+	.ish-blog-post-masonry.ish-color8:hover > div,
+	.ish-blog-post-masonry.ish-color8.ish-image-cover:hover .ish-blog-post-media + div
+	{
+		background-color: #00ce6c;
+	}
+
+	.ish-sc-element.ish-nav-color8 .flex-control-nav li a:hover, .ish-sc-element.ish-nav-color8 .flex-control-nav li a.flex-active
+	{
+		background-color: #00b553;
+	}
+
+	.ish-sc_table.ish-striped.ish-color8 table tr:nth-child(even) td,
+	.ish-sc_pricing_table.ish-striped.ish-color8 tr:nth-child(even) td
+	{
+		background-color: #0fdd7b;
+	}
+
+	.ish-sc_table.ish-striped table tr:nth-child(even) td.ish-color8
+	{
+		background-color: #0fdd7b !important;
+	}
+
+	.ish-sc_button.ish-color8,
+	.ish-tgg-acc-title.ish-color8,
+	.ish-tabs-navigation li.ish-color8 a,
+	.ish-sc_cf7.ish-color8 input[type="submit"],
+	.ish-sc_menu.ish-color8 li a,
+	.ish-sc_menu.ish-block-bg-color8 li a:hover,
+	.ish-sc_menu.ish-block-bg-color8 li.current_page_item a
+	{
+		background-color: #19e785;
+		box-shadow: 0 3px 0 #00ce6c;
+	}
+
+	a.ish-sc_button.ish-color8:hover,
+	.ish-tgg-acc-title.ish-color8:hover, .ish-tgg-acc-title.ish-color8.ish-active,
+	.ish-tabs-navigation li.ish-color8 a:hover, .ish-tabs-navigation li.ish-color8.ish-active a,
+	.ish-sc_sidebar.ish-block-bg-color8 .widget_tag_cloud a:hover,
+	.ish-sc_cf7.ish-color8 input[type="submit"]:hover,
+	.ish-sc_menu.ish-no-active-bg.ish-color8 li a:hover,
+	.ish-sc_menu.ish-no-active-bg.ish-color8 li.current_page_item a,
+	.ish-sc_menu.ish-block-bg-color8 li.current_page_item a:hover
+	{
+		background-color: #00ce6c;
+		box-shadow: 0 3px 0 #00b553;
+	}
+
+	.ish-sc_icon.ish-hexagon.ish-color8 svg polygon,
+	.ish-sc_icon.ish-hexagon_rounded.ish-color8 svg path,
+	.ish-sc_svg_icon.ish-hexagon.ish-color8 svg polygon,
+	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color8 svg path,
+	.ish-row_section.ish-color8 .ish-row-decor-top polyline.ish-color,
+	.ish-row_section.ish-color8 .ish-row-decor-bottom polyline.ish-color,
+	.ish-row_section.ish-color8 .ish-row-decor-top path.ish-color,
+	.ish-row_section.ish-color8 .ish-row-decor-bottom path.ish-color,
+	.ish-row_section.ish-color8 .ish-row-decor-top polygon.ish-color,
+	.ish-row_section.ish-color8 .ish-row-decor-bottom polygon.ish-color,
+	.ish-row_section.ish-color8 .ish-row-decor-top rect.ish-color,
+	.ish-row_section.ish-color8 .ish-row-decor-bottom rect.ish-color
+	{
+		fill: #19e785;
+	}
+
+	.ish-sc_icon.ish-hexagon.ish-color8 a:hover svg polygon,
+	.ish-sc_icon.ish-hexagon_rounded.ish-color8 a:hover svg path,
+	.ish-sc_svg_icon.ish-hexagon.ish-color8 a:hover svg polygon,
+	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color8 a:hover svg path
+	{
+		fill: #00ce6c;
+	}
+
+	.ish-p-overlay.ish-color8 > span,
+	.ish-blog-fullwidth .wpb_row.ish-color8 > .ish-overlay,
+	.ish-tagline-image.ish-color8 .ish-overlay
+	{
+		background-color: rgba(25, 231, 133, 0.9);
+	}
+
+	.ish-gmap_box.ish-color8:before,
+	.ish-blog.ish-blog-masonry .ish-text-color8 blockquote,
+	.ish-sc_separator.ish-separator-thin.ish-color8,
+	.ish-sc_separator.ish-separator-thin-bold.ish-color8,
+	.ish-color8 .recent_posts_post_content .post-quote-content,
+	.ish-sc_table.ish-border-color8 th, .ish-sc_table.ish-border-color8 tr, .ish-sc_table.ish-border-color8 td,
+	.ish-sc_pricing_table.ish-border-color8 th, .ish-sc_pricing_table.ish-border-color8 tr, .ish-sc_pricing_table.ish-border-color8 td
+	{
+		border-color: #19e785;
+	}
+
+	.ish-sc_sidebar.ish-block-bg-color8 .widget_tag_cloud a
+	{
+		box-shadow: 0 3px 0 #00ce6c;
+	}
+	
+
+	.ish-tooltip-color8 .tooltipster-arrow-top span,
+	.ish-tooltip-color8 .tooltipster-arrow-bottom span{
+		border-top-color: #19e785 !important;
+		border-bottom-color: #19e785 !important;
+	}
+
+	.ish-tooltip-color8 .tooltipster-arrow-left span,
+	.ish-tooltip-color8 .tooltipster-arrow-right span{
+		border-left-color: #19e785 !important;
+		border-right-color: #19e785 !important;
+	}
+	
+
+	.wpb_row.ish-text-color9,
+	.wpb_row.ish-text-color9 a,
+	.ish-sc_headline.ish-color9,
+	.ish-sc_headline.ish-color9 a,
+	.ish-sc_list.ish-color9 li:before,
+	.ish-sc_list.ish-color9.ish-noicon li:before,
+	.ish-sc_list.ish-text-color9,
+	.ish-sc_quote.ish-color9,
+	.ish-sc_quote.ish-color9 a,
+	.ish-p-overlay.ish-text-color9,
+	.ish-blog .wpb_row.ish-color9 h2 a,
+	.ish-blog .wpb_row.ish-color9 blockquote a,
+	.ish-blog .wpb_row.ish-color9 .ish-blog-post-details a:hover,
+	.ish-blog .wpb_row.ish-color9 .ish-blog-post-links i:before,
+	.ish-blog .wpb_row.ish-color9 .ish-blog-post-links a:hover,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color9 h2 a,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color9 .ish-blog-post-details a,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color9 .ish-blog-post-details a:hover,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color9 .ish-blog-post-details span,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color9 blockquote a,
+	.ish-blog.ish-blog-masonry .ish-text-color9,
+	.ish-blog.ish-blog-masonry .ish-text-color9 a,
+	.ish-blog.ish-blog-masonry .ish-text-color9 cite:before,
+	.ish-blog.ish-blog-masonry .ish-text-color9 .ish-blog-post-details a,
+	.ish-blog.ish-blog-masonry .ish-text-color9 .ish-blog-post-details a:hover,
+	.ish-blog.ish-blog-masonry .ish-text-color9 .ish-blog-post-details span,
+	.ish-blog.ish-blog-masonry .ish-text-color9 .ish-link-content a,
+	.ish-tagline-image.ish-text-color9 h1,
+	.ish-tagline-image.ish-text-color9 .ish-blog-post-details a,
+	.ish-tagline-colored.ish-text-color9 h1,
+	.ish-tagline-colored.ish-text-color9 .ish-blog-post-details a,
+	.ish-text-color9 .ish-section-filter li a:hover,
+	.ish-text-color9 .ish-section-filter li a.ish-active,
+	.ish-text-color9 .ish-section-filter li.current-cat a:hover,
+	.ish-recent_posts_post.ish-color9 h3 a,
+	.ish-sc-element.ish-sc_icon.ish-text-color9,
+	.ish-sc-element.ish-sc_icon.ish-text-color9 a, .ish-sc-element.ish-sc_icon.ish-text-color9 a:hover,
+	.ish-sc_skills .ish-sc_skill.ish-text-color9 .ish-bar-bg .ish-bar,
+	.ish-sc_skills .ish-sc_skill.ish-text-color9.ish-outside > span,
+	.ish-gmap_box.ish-text-color9, .ish-gmap_box.ish-text-color9 a, .ish-gmap_box.ish-text-color9 a:hover,
+	div.ish-recent_posts_post.ish-text-color9, div.ish-recent_posts_post.ish-text-color9 a, div.ish-recent_posts_post.ish-color9 h3 a,
+	.ish-sc-element.ish-prevnext-color9 .flex-direction-nav li a,
+	.ish-tgg-acc-title.ish-text-color9, .ish-tgg-acc-content.ish-text-color9,
+	.ish-sc_tab.ish-text-color9, .ish-tabs-navigation li.ish-text-color9 a,
+	.ish-sc_sidebar.ish-text-color9 .widget,
+	.ish-sc_sidebar.ish-link1-color9 .widget-title,
+	.ish-sc_sidebar.ish-link1-color9 .widget a,
+	.ish-sc_sidebar.ish-link2-color9 .widget_calendar #wp-calendar tfoot a,
+	.ish-sc_sidebar.ish-link2-color9 .widget_ishyoboy-recent-portfolio-widget a.ish-button-small,
+	.ish-sc_sidebar.ish-link2-color9 .widget_ishyoboy-dribbble-widget a.ish-button-small,
+	.ish-sc_sidebar.ish-link2-color9 .widget_ishyoboy-flickr-widget a.ish-button-small,
+	.ish-sc_sidebar.ish-link2-color9 .widget_ishyoboy-twitter-widget a.ish-button-small,
+
+	.ish-sc_sidebar.ish-block-text-color9 .widget select,
+	.ish-sc_sidebar.ish-block-text-color9 .widget option,
+	.ish-sc_sidebar.ish-block-text-color9 .widget_search input[type='text'],
+	.ish-sc_sidebar.ish-block-text-color9 .widget_search input[type='submit'],
+	.ish-sc_sidebar.ish-block-text-color9 .widget_tag_cloud a,
+	.ish-sc_sidebar.ish-block-text-color9 .widget_tag_cloud a:hover,
+
+	.ish-sc_cf7.ish-bg-text-color9 input,
+	.ish-sc_cf7.ish-bg-text-color9 textarea,
+	.ish-sc_cf7.ish-bg-text-color9 select,
+
+	.ish-sc_cf7.ish-text-color9,
+
+	.ish-sc_menu.ish-text-color9 li a,
+	.ish-sc_menu.ish-block-text-color9 li a:hover,
+	.ish-sc_menu.ish-block-text-color9 li.current_page_item a,
+	.wpb_text_column.ish-text-color9,
+	.tooltipster-default.ish-tooltip-text-color9,
+
+	.ish-sc_table.ish-text-color9,
+	.ish-sc_table.ish-header-text-color9 th,
+	.ish-sc_table th.ish-text-color9,
+	.ish-sc_table td.ish-text-color9,
+
+	.ish-sc_pricing_table.ish-text-color9,
+
+	.ish-sc_box.ish-text-color9
+
+	{
+		color: #f45e78;
+	}
+
+	.ish-sc_button.ish-text-color9, a.ish-sc_button.ish-text-color9:hover,
+	.ish-sc_portfolio_categories.ish-text-color9, .ish-sc_portfolio_categories.ish-text-color9 a
+	{
+		color: #f45e78 !important;
+	}
+
+	.ish-sc-element.ish-sc_icon.ish-text-color9:not([class*='ish-color']) a:hover,
+	.ish-recent_posts_post.ish-color9 h3 a:hover,
+	.ish-blog .wpb_row.ish-color9 h2 a:hover,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color9 h2 a:hover,
+	.ish-sc_sidebar.ish-link1-color9 .widget a:hover,
+
+	.ish-sc_sidebar.ish-link2-color9 .widget_calendar #wp-calendar tfoot a:hover,
+	.ish-sc_sidebar.ish-link2-color9 .widget_ishyoboy-recent-portfolio-widget a.ish-button-small:hover,
+	.ish-sc_sidebar.ish-link2-color9 .widget_ishyoboy-dribbble-widget a.ish-button-small:hover,
+	.ish-sc_sidebar.ish-link2-color9 .widget_ishyoboy-flickr-widget a.ish-button-small:hover,
+	.ish-sc_sidebar.ish-link2-color9 .widget_ishyoboy-twitter-widget a.ish-button-small:hover
+	{
+		color: #db455f;
+	}
+
+	.ish-sc-element.ish-prevnext-color9 .flex-direction-nav li a:hover
+	{
+		color: #c22c46;
+	}
+
+
+	.ish-tagline-image.ish-text-color9 h2,
+	.ish-tagline-colored.ish-text-color9 h2
+	{
+		color: rgba(244, 94, 120, 0.8);
+	}
+.ish-sc_cf7.ish-bg-text-color9 :-moz-placeholder{ color: rgba(244, 94, 120, 0.6); }
+.ish-sc_cf7.ish-bg-text-color9 ::-webkit-input-placeholder{ color: rgba(244, 94, 120, 0.6); }
+.ish-sc_cf7.ish-bg-text-color9 .placeholder{ color: rgba(244, 94, 120, 0.6); }
+
+
+	.ish-tagline-image.ish-text-color9 .ish-blog-post-details,
+	.ish-tagline-image.ish-text-color9 .ish-blog-post-details span,
+	.ish-tagline-image.ish-text-color9 .ish-blog-post-details a:hover,
+	.ish-tagline-colored.ish-text-color9 .ish-blog-post-details,
+	.ish-tagline-colored.ish-text-color9 .ish-blog-post-details span,
+	.ish-tagline-colored.ish-text-color9 .ish-blog-post-details a:hover,
+	.ish-text-color9 .ish-section-filter li a
+	{
+		color: rgba(244, 94, 120, 0.6);
+	}
+
+	.ish-sc_sidebar.ish-block-text-color9 .widget_search input[type='text']:-moz-placeholder           { color: rgba(244, 94, 120, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color9 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(244, 94, 120, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color9 .widget_search input[type='text'].placeholder                { color: rgba(244, 94, 120, 0.6); }
+	
+
+	.wpb_row.ish-color9,
+	.ish-row-overlay.ish-color9,
+	.ish-sc_svg_icon.ish-square.ish-color9,
+	.ish-sc_svg_icon.ish-circle.ish-color9,
+	.ish-gmap_box.ish-color9,
+	.ish-blog .wpb_row.ish-color9 .ish-blog-post-links:after,
+	.ish-blog-post-masonry.ish-color9,
+	.ish-blog-post-masonry.ish-color9.ish-image-cover .ish-blog-post-media + div,
+	.ish-blog-post-masonry.ish-text-color9.ish-image-cover .ish-blog-post-media + div:before,
+	.ish-tagline-colored.ish-color9 .ish-overlay,
+	.ish-sc_icon.ish-color9.ish-square span span,
+	.ish-sc_icon.ish-color9.ish-circle span span,
+	.ish-sc_skills .ish-sc_skill.ish-skill-color9 .ish-bar-bg .ish-bar,
+	.ish-sc_skills .ish-sc_skill.ish-color9 .ish-bar-bg,
+	.ish-sc-element.ish-nav-color9 .flex-control-nav li a,
+	.ish-tgg-acc-title.ish-color9, .ish-tgg-acc-content.ish-color9,
+	.ish-sc_tab.ish-color9, .ish-tabs-navigation li.ish-color9 a,
+	.ish-sc_separator.ish-separator-bold.ish-color9,
+	.ish-sc_separator.ish-separator-thin-bold.ish-color9:before,
+
+	.ish-sc_sidebar.ish-block-bg-color9 .widget select,
+	.ish-sc_sidebar.ish-block-bg-color9 .widget option,
+	.ish-sc_sidebar.ish-block-bg-color9 .widget_search input[type='text'],
+	.ish-sc_sidebar.ish-block-bg-color9 .widget_tag_cloud a,
+
+	.ish-sc_cf7.ish-color9 input,
+	.ish-sc_cf7.ish-color9 textarea,
+	.ish-sc_cf7.ish-color9 select,
+	.tooltipster-default.ish-tooltip-color9,
+
+	.ish-sc_table.ish-color9 td,
+	.ish-sc_table.ish-color9 th,
+	.ish-sc_table.ish-header-bg-color9 table th,
+	.ish-sc_table table th.ish-color9,
+	.ish-sc_table table td.ish-color9,
+
+	.ish-sc_pricing_table.ish-color9 table,
+
+	.ish-sc_box.ish-color9
+
+	{
+		background-color: #f45e78;
+	}
+
+	.ish-sc_icon.ish-color9.ish-square a:hover span span,
+	.ish-sc_icon.ish-color9.ish-circle a:hover span span,
+	.ish-sc_svg_icon.ish-square.ish-color9 a:hover,
+	.ish-sc_svg_icon.ish-circle.ish-color9 a:hover,
+	.ish-tgg-acc-title.ish-color9:hover, .ish-tgg-acc-title.ish-color9.ish-active,
+	.ish-sc_sidebar.ish-block-bg-color9 .widget_search input[type='submit']:hover,
+	.ish-blog-post-masonry.ish-color9:hover > div,
+	.ish-blog-post-masonry.ish-color9.ish-image-cover:hover .ish-blog-post-media + div
+	{
+		background-color: #db455f;
+	}
+
+	.ish-sc-element.ish-nav-color9 .flex-control-nav li a:hover, .ish-sc-element.ish-nav-color9 .flex-control-nav li a.flex-active
+	{
+		background-color: #c22c46;
+	}
+
+	.ish-sc_table.ish-striped.ish-color9 table tr:nth-child(even) td,
+	.ish-sc_pricing_table.ish-striped.ish-color9 tr:nth-child(even) td
+	{
+		background-color: #ea546e;
+	}
+
+	.ish-sc_table.ish-striped table tr:nth-child(even) td.ish-color9
+	{
+		background-color: #ea546e !important;
+	}
+
+	.ish-sc_button.ish-color9,
+	.ish-tgg-acc-title.ish-color9,
+	.ish-tabs-navigation li.ish-color9 a,
+	.ish-sc_cf7.ish-color9 input[type="submit"],
+	.ish-sc_menu.ish-color9 li a,
+	.ish-sc_menu.ish-block-bg-color9 li a:hover,
+	.ish-sc_menu.ish-block-bg-color9 li.current_page_item a
+	{
+		background-color: #f45e78;
+		box-shadow: 0 3px 0 #db455f;
+	}
+
+	a.ish-sc_button.ish-color9:hover,
+	.ish-tgg-acc-title.ish-color9:hover, .ish-tgg-acc-title.ish-color9.ish-active,
+	.ish-tabs-navigation li.ish-color9 a:hover, .ish-tabs-navigation li.ish-color9.ish-active a,
+	.ish-sc_sidebar.ish-block-bg-color9 .widget_tag_cloud a:hover,
+	.ish-sc_cf7.ish-color9 input[type="submit"]:hover,
+	.ish-sc_menu.ish-no-active-bg.ish-color9 li a:hover,
+	.ish-sc_menu.ish-no-active-bg.ish-color9 li.current_page_item a,
+	.ish-sc_menu.ish-block-bg-color9 li.current_page_item a:hover
+	{
+		background-color: #db455f;
+		box-shadow: 0 3px 0 #c22c46;
+	}
+
+	.ish-sc_icon.ish-hexagon.ish-color9 svg polygon,
+	.ish-sc_icon.ish-hexagon_rounded.ish-color9 svg path,
+	.ish-sc_svg_icon.ish-hexagon.ish-color9 svg polygon,
+	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color9 svg path,
+	.ish-row_section.ish-color9 .ish-row-decor-top polyline.ish-color,
+	.ish-row_section.ish-color9 .ish-row-decor-bottom polyline.ish-color,
+	.ish-row_section.ish-color9 .ish-row-decor-top path.ish-color,
+	.ish-row_section.ish-color9 .ish-row-decor-bottom path.ish-color,
+	.ish-row_section.ish-color9 .ish-row-decor-top polygon.ish-color,
+	.ish-row_section.ish-color9 .ish-row-decor-bottom polygon.ish-color,
+	.ish-row_section.ish-color9 .ish-row-decor-top rect.ish-color,
+	.ish-row_section.ish-color9 .ish-row-decor-bottom rect.ish-color
+	{
+		fill: #f45e78;
+	}
+
+	.ish-sc_icon.ish-hexagon.ish-color9 a:hover svg polygon,
+	.ish-sc_icon.ish-hexagon_rounded.ish-color9 a:hover svg path,
+	.ish-sc_svg_icon.ish-hexagon.ish-color9 a:hover svg polygon,
+	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color9 a:hover svg path
+	{
+		fill: #db455f;
+	}
+
+	.ish-p-overlay.ish-color9 > span,
+	.ish-blog-fullwidth .wpb_row.ish-color9 > .ish-overlay,
+	.ish-tagline-image.ish-color9 .ish-overlay
+	{
+		background-color: rgba(244, 94, 120, 0.9);
+	}
+
+	.ish-gmap_box.ish-color9:before,
+	.ish-blog.ish-blog-masonry .ish-text-color9 blockquote,
+	.ish-sc_separator.ish-separator-thin.ish-color9,
+	.ish-sc_separator.ish-separator-thin-bold.ish-color9,
+	.ish-color9 .recent_posts_post_content .post-quote-content,
+	.ish-sc_table.ish-border-color9 th, .ish-sc_table.ish-border-color9 tr, .ish-sc_table.ish-border-color9 td,
+	.ish-sc_pricing_table.ish-border-color9 th, .ish-sc_pricing_table.ish-border-color9 tr, .ish-sc_pricing_table.ish-border-color9 td
+	{
+		border-color: #f45e78;
+	}
+
+	.ish-sc_sidebar.ish-block-bg-color9 .widget_tag_cloud a
+	{
+		box-shadow: 0 3px 0 #db455f;
+	}
+	
+
+	.ish-tooltip-color9 .tooltipster-arrow-top span,
+	.ish-tooltip-color9 .tooltipster-arrow-bottom span{
+		border-top-color: #f45e78 !important;
+		border-bottom-color: #f45e78 !important;
+	}
+
+	.ish-tooltip-color9 .tooltipster-arrow-left span,
+	.ish-tooltip-color9 .tooltipster-arrow-right span{
+		border-left-color: #f45e78 !important;
+		border-right-color: #f45e78 !important;
+	}
+	
+
+	.wpb_row.ish-text-color10,
+	.wpb_row.ish-text-color10 a,
+	.ish-sc_headline.ish-color10,
+	.ish-sc_headline.ish-color10 a,
+	.ish-sc_list.ish-color10 li:before,
+	.ish-sc_list.ish-color10.ish-noicon li:before,
+	.ish-sc_list.ish-text-color10,
+	.ish-sc_quote.ish-color10,
+	.ish-sc_quote.ish-color10 a,
+	.ish-p-overlay.ish-text-color10,
+	.ish-blog .wpb_row.ish-color10 h2 a,
+	.ish-blog .wpb_row.ish-color10 blockquote a,
+	.ish-blog .wpb_row.ish-color10 .ish-blog-post-details a:hover,
+	.ish-blog .wpb_row.ish-color10 .ish-blog-post-links i:before,
+	.ish-blog .wpb_row.ish-color10 .ish-blog-post-links a:hover,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color10 h2 a,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color10 .ish-blog-post-details a,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color10 .ish-blog-post-details a:hover,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color10 .ish-blog-post-details span,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color10 blockquote a,
+	.ish-blog.ish-blog-masonry .ish-text-color10,
+	.ish-blog.ish-blog-masonry .ish-text-color10 a,
+	.ish-blog.ish-blog-masonry .ish-text-color10 cite:before,
+	.ish-blog.ish-blog-masonry .ish-text-color10 .ish-blog-post-details a,
+	.ish-blog.ish-blog-masonry .ish-text-color10 .ish-blog-post-details a:hover,
+	.ish-blog.ish-blog-masonry .ish-text-color10 .ish-blog-post-details span,
+	.ish-blog.ish-blog-masonry .ish-text-color10 .ish-link-content a,
+	.ish-tagline-image.ish-text-color10 h1,
+	.ish-tagline-image.ish-text-color10 .ish-blog-post-details a,
+	.ish-tagline-colored.ish-text-color10 h1,
+	.ish-tagline-colored.ish-text-color10 .ish-blog-post-details a,
+	.ish-text-color10 .ish-section-filter li a:hover,
+	.ish-text-color10 .ish-section-filter li a.ish-active,
+	.ish-text-color10 .ish-section-filter li.current-cat a:hover,
+	.ish-recent_posts_post.ish-color10 h3 a,
+	.ish-sc-element.ish-sc_icon.ish-text-color10,
+	.ish-sc-element.ish-sc_icon.ish-text-color10 a, .ish-sc-element.ish-sc_icon.ish-text-color10 a:hover,
+	.ish-sc_skills .ish-sc_skill.ish-text-color10 .ish-bar-bg .ish-bar,
+	.ish-sc_skills .ish-sc_skill.ish-text-color10.ish-outside > span,
+	.ish-gmap_box.ish-text-color10, .ish-gmap_box.ish-text-color10 a, .ish-gmap_box.ish-text-color10 a:hover,
+	div.ish-recent_posts_post.ish-text-color10, div.ish-recent_posts_post.ish-text-color10 a, div.ish-recent_posts_post.ish-color10 h3 a,
+	.ish-sc-element.ish-prevnext-color10 .flex-direction-nav li a,
+	.ish-tgg-acc-title.ish-text-color10, .ish-tgg-acc-content.ish-text-color10,
+	.ish-sc_tab.ish-text-color10, .ish-tabs-navigation li.ish-text-color10 a,
+	.ish-sc_sidebar.ish-text-color10 .widget,
+	.ish-sc_sidebar.ish-link1-color10 .widget-title,
+	.ish-sc_sidebar.ish-link1-color10 .widget a,
+	.ish-sc_sidebar.ish-link2-color10 .widget_calendar #wp-calendar tfoot a,
+	.ish-sc_sidebar.ish-link2-color10 .widget_ishyoboy-recent-portfolio-widget a.ish-button-small,
+	.ish-sc_sidebar.ish-link2-color10 .widget_ishyoboy-dribbble-widget a.ish-button-small,
+	.ish-sc_sidebar.ish-link2-color10 .widget_ishyoboy-flickr-widget a.ish-button-small,
+	.ish-sc_sidebar.ish-link2-color10 .widget_ishyoboy-twitter-widget a.ish-button-small,
+
+	.ish-sc_sidebar.ish-block-text-color10 .widget select,
+	.ish-sc_sidebar.ish-block-text-color10 .widget option,
+	.ish-sc_sidebar.ish-block-text-color10 .widget_search input[type='text'],
+	.ish-sc_sidebar.ish-block-text-color10 .widget_search input[type='submit'],
+	.ish-sc_sidebar.ish-block-text-color10 .widget_tag_cloud a,
+	.ish-sc_sidebar.ish-block-text-color10 .widget_tag_cloud a:hover,
+
+	.ish-sc_cf7.ish-bg-text-color10 input,
+	.ish-sc_cf7.ish-bg-text-color10 textarea,
+	.ish-sc_cf7.ish-bg-text-color10 select,
+
+	.ish-sc_cf7.ish-text-color10,
+
+	.ish-sc_menu.ish-text-color10 li a,
+	.ish-sc_menu.ish-block-text-color10 li a:hover,
+	.ish-sc_menu.ish-block-text-color10 li.current_page_item a,
+	.wpb_text_column.ish-text-color10,
+	.tooltipster-default.ish-tooltip-text-color10,
+
+	.ish-sc_table.ish-text-color10,
+	.ish-sc_table.ish-header-text-color10 th,
+	.ish-sc_table th.ish-text-color10,
+	.ish-sc_table td.ish-text-color10,
+
+	.ish-sc_pricing_table.ish-text-color10,
+
+	.ish-sc_box.ish-text-color10
+
+	{
+		color: #8b6c93;
+	}
+
+	.ish-sc_button.ish-text-color10, a.ish-sc_button.ish-text-color10:hover,
+	.ish-sc_portfolio_categories.ish-text-color10, .ish-sc_portfolio_categories.ish-text-color10 a
+	{
+		color: #8b6c93 !important;
+	}
+
+	.ish-sc-element.ish-sc_icon.ish-text-color10:not([class*='ish-color']) a:hover,
+	.ish-recent_posts_post.ish-color10 h3 a:hover,
+	.ish-blog .wpb_row.ish-color10 h2 a:hover,
+	.ish-blog.ish-blog-fullwidth .wpb_row.ish-text-color10 h2 a:hover,
+	.ish-sc_sidebar.ish-link1-color10 .widget a:hover,
+
+	.ish-sc_sidebar.ish-link2-color10 .widget_calendar #wp-calendar tfoot a:hover,
+	.ish-sc_sidebar.ish-link2-color10 .widget_ishyoboy-recent-portfolio-widget a.ish-button-small:hover,
+	.ish-sc_sidebar.ish-link2-color10 .widget_ishyoboy-dribbble-widget a.ish-button-small:hover,
+	.ish-sc_sidebar.ish-link2-color10 .widget_ishyoboy-flickr-widget a.ish-button-small:hover,
+	.ish-sc_sidebar.ish-link2-color10 .widget_ishyoboy-twitter-widget a.ish-button-small:hover
+	{
+		color: #72537a;
+	}
+
+	.ish-sc-element.ish-prevnext-color10 .flex-direction-nav li a:hover
+	{
+		color: #593a61;
+	}
+
+
+	.ish-tagline-image.ish-text-color10 h2,
+	.ish-tagline-colored.ish-text-color10 h2
+	{
+		color: rgba(139, 108, 147, 0.8);
+	}
+.ish-sc_cf7.ish-bg-text-color10 :-moz-placeholder{ color: rgba(139, 108, 147, 0.6); }
+.ish-sc_cf7.ish-bg-text-color10 ::-webkit-input-placeholder{ color: rgba(139, 108, 147, 0.6); }
+.ish-sc_cf7.ish-bg-text-color10 .placeholder{ color: rgba(139, 108, 147, 0.6); }
+
+
+	.ish-tagline-image.ish-text-color10 .ish-blog-post-details,
+	.ish-tagline-image.ish-text-color10 .ish-blog-post-details span,
+	.ish-tagline-image.ish-text-color10 .ish-blog-post-details a:hover,
+	.ish-tagline-colored.ish-text-color10 .ish-blog-post-details,
+	.ish-tagline-colored.ish-text-color10 .ish-blog-post-details span,
+	.ish-tagline-colored.ish-text-color10 .ish-blog-post-details a:hover,
+	.ish-text-color10 .ish-section-filter li a
+	{
+		color: rgba(139, 108, 147, 0.6);
+	}
+
+	.ish-sc_sidebar.ish-block-text-color10 .widget_search input[type='text']:-moz-placeholder           { color: rgba(139, 108, 147, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color10 .widget_search input[type='text']::-webkit-input-placeholder { color: rgba(139, 108, 147, 0.6); }
+	.ish-sc_sidebar.ish-block-text-color10 .widget_search input[type='text'].placeholder                { color: rgba(139, 108, 147, 0.6); }
+	
+
+	.wpb_row.ish-color10,
+	.ish-row-overlay.ish-color10,
+	.ish-sc_svg_icon.ish-square.ish-color10,
+	.ish-sc_svg_icon.ish-circle.ish-color10,
+	.ish-gmap_box.ish-color10,
+	.ish-blog .wpb_row.ish-color10 .ish-blog-post-links:after,
+	.ish-blog-post-masonry.ish-color10,
+	.ish-blog-post-masonry.ish-color10.ish-image-cover .ish-blog-post-media + div,
+	.ish-blog-post-masonry.ish-text-color10.ish-image-cover .ish-blog-post-media + div:before,
+	.ish-tagline-colored.ish-color10 .ish-overlay,
+	.ish-sc_icon.ish-color10.ish-square span span,
+	.ish-sc_icon.ish-color10.ish-circle span span,
+	.ish-sc_skills .ish-sc_skill.ish-skill-color10 .ish-bar-bg .ish-bar,
+	.ish-sc_skills .ish-sc_skill.ish-color10 .ish-bar-bg,
+	.ish-sc-element.ish-nav-color10 .flex-control-nav li a,
+	.ish-tgg-acc-title.ish-color10, .ish-tgg-acc-content.ish-color10,
+	.ish-sc_tab.ish-color10, .ish-tabs-navigation li.ish-color10 a,
+	.ish-sc_separator.ish-separator-bold.ish-color10,
+	.ish-sc_separator.ish-separator-thin-bold.ish-color10:before,
+
+	.ish-sc_sidebar.ish-block-bg-color10 .widget select,
+	.ish-sc_sidebar.ish-block-bg-color10 .widget option,
+	.ish-sc_sidebar.ish-block-bg-color10 .widget_search input[type='text'],
+	.ish-sc_sidebar.ish-block-bg-color10 .widget_tag_cloud a,
+
+	.ish-sc_cf7.ish-color10 input,
+	.ish-sc_cf7.ish-color10 textarea,
+	.ish-sc_cf7.ish-color10 select,
+	.tooltipster-default.ish-tooltip-color10,
+
+	.ish-sc_table.ish-color10 td,
+	.ish-sc_table.ish-color10 th,
+	.ish-sc_table.ish-header-bg-color10 table th,
+	.ish-sc_table table th.ish-color10,
+	.ish-sc_table table td.ish-color10,
+
+	.ish-sc_pricing_table.ish-color10 table,
+
+	.ish-sc_box.ish-color10
+
+	{
+		background-color: #8b6c93;
+	}
+
+	.ish-sc_icon.ish-color10.ish-square a:hover span span,
+	.ish-sc_icon.ish-color10.ish-circle a:hover span span,
+	.ish-sc_svg_icon.ish-square.ish-color10 a:hover,
+	.ish-sc_svg_icon.ish-circle.ish-color10 a:hover,
+	.ish-tgg-acc-title.ish-color10:hover, .ish-tgg-acc-title.ish-color10.ish-active,
+	.ish-sc_sidebar.ish-block-bg-color10 .widget_search input[type='submit']:hover,
+	.ish-blog-post-masonry.ish-color10:hover > div,
+	.ish-blog-post-masonry.ish-color10.ish-image-cover:hover .ish-blog-post-media + div
+	{
+		background-color: #72537a;
+	}
+
+	.ish-sc-element.ish-nav-color10 .flex-control-nav li a:hover, .ish-sc-element.ish-nav-color10 .flex-control-nav li a.flex-active
+	{
+		background-color: #593a61;
+	}
+
+	.ish-sc_table.ish-striped.ish-color10 table tr:nth-child(even) td,
+	.ish-sc_pricing_table.ish-striped.ish-color10 tr:nth-child(even) td
+	{
+		background-color: #816289;
+	}
+
+	.ish-sc_table.ish-striped table tr:nth-child(even) td.ish-color10
+	{
+		background-color: #816289 !important;
+	}
+
+	.ish-sc_button.ish-color10,
+	.ish-tgg-acc-title.ish-color10,
+	.ish-tabs-navigation li.ish-color10 a,
+	.ish-sc_cf7.ish-color10 input[type="submit"],
+	.ish-sc_menu.ish-color10 li a,
+	.ish-sc_menu.ish-block-bg-color10 li a:hover,
+	.ish-sc_menu.ish-block-bg-color10 li.current_page_item a
+	{
+		background-color: #8b6c93;
+		box-shadow: 0 3px 0 #72537a;
+	}
+
+	a.ish-sc_button.ish-color10:hover,
+	.ish-tgg-acc-title.ish-color10:hover, .ish-tgg-acc-title.ish-color10.ish-active,
+	.ish-tabs-navigation li.ish-color10 a:hover, .ish-tabs-navigation li.ish-color10.ish-active a,
+	.ish-sc_sidebar.ish-block-bg-color10 .widget_tag_cloud a:hover,
+	.ish-sc_cf7.ish-color10 input[type="submit"]:hover,
+	.ish-sc_menu.ish-no-active-bg.ish-color10 li a:hover,
+	.ish-sc_menu.ish-no-active-bg.ish-color10 li.current_page_item a,
+	.ish-sc_menu.ish-block-bg-color10 li.current_page_item a:hover
+	{
+		background-color: #72537a;
+		box-shadow: 0 3px 0 #593a61;
+	}
+
+	.ish-sc_icon.ish-hexagon.ish-color10 svg polygon,
+	.ish-sc_icon.ish-hexagon_rounded.ish-color10 svg path,
+	.ish-sc_svg_icon.ish-hexagon.ish-color10 svg polygon,
+	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color10 svg path,
+	.ish-row_section.ish-color10 .ish-row-decor-top polyline.ish-color,
+	.ish-row_section.ish-color10 .ish-row-decor-bottom polyline.ish-color,
+	.ish-row_section.ish-color10 .ish-row-decor-top path.ish-color,
+	.ish-row_section.ish-color10 .ish-row-decor-bottom path.ish-color,
+	.ish-row_section.ish-color10 .ish-row-decor-top polygon.ish-color,
+	.ish-row_section.ish-color10 .ish-row-decor-bottom polygon.ish-color,
+	.ish-row_section.ish-color10 .ish-row-decor-top rect.ish-color,
+	.ish-row_section.ish-color10 .ish-row-decor-bottom rect.ish-color
+	{
+		fill: #8b6c93;
+	}
+
+	.ish-sc_icon.ish-hexagon.ish-color10 a:hover svg polygon,
+	.ish-sc_icon.ish-hexagon_rounded.ish-color10 a:hover svg path,
+	.ish-sc_svg_icon.ish-hexagon.ish-color10 a:hover svg polygon,
+	.ish-sc_svg_icon.ish-hexagon_rounded.ish-color10 a:hover svg path
+	{
+		fill: #72537a;
+	}
+
+	.ish-p-overlay.ish-color10 > span,
+	.ish-blog-fullwidth .wpb_row.ish-color10 > .ish-overlay,
+	.ish-tagline-image.ish-color10 .ish-overlay
+	{
+		background-color: rgba(139, 108, 147, 0.9);
+	}
+
+	.ish-gmap_box.ish-color10:before,
+	.ish-blog.ish-blog-masonry .ish-text-color10 blockquote,
+	.ish-sc_separator.ish-separator-thin.ish-color10,
+	.ish-sc_separator.ish-separator-thin-bold.ish-color10,
+	.ish-color10 .recent_posts_post_content .post-quote-content,
+	.ish-sc_table.ish-border-color10 th, .ish-sc_table.ish-border-color10 tr, .ish-sc_table.ish-border-color10 td,
+	.ish-sc_pricing_table.ish-border-color10 th, .ish-sc_pricing_table.ish-border-color10 tr, .ish-sc_pricing_table.ish-border-color10 td
+	{
+		border-color: #8b6c93;
+	}
+
+	.ish-sc_sidebar.ish-block-bg-color10 .widget_tag_cloud a
+	{
+		box-shadow: 0 3px 0 #72537a;
+	}
+	
+
+	.ish-tooltip-color10 .tooltipster-arrow-top span,
+	.ish-tooltip-color10 .tooltipster-arrow-bottom span{
+		border-top-color: #8b6c93 !important;
+		border-bottom-color: #8b6c93 !important;
+	}
+
+	.ish-tooltip-color10 .tooltipster-arrow-left span,
+	.ish-tooltip-color10 .tooltipster-arrow-right span{
+		border-left-color: #8b6c93 !important;
+		border-right-color: #8b6c93 !important;
+	}
+	
